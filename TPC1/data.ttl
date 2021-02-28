@@ -48,1148 +48,1159 @@
 
 ### Aluno Individuals
 
-:aluno_827dc547-3ce0-4563-9d3f-fa6845394f91 rdf:type owl:NameIndividual ,
+:aluno_292e1bfa-a57d-47fe-9169-20d4d4d0e833 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "JoannaVasquez" ;
-			:frequenta :SPLN2021 .
-
-:aluno_bf5499ac-f17f-4a0a-9c50-791ccfc29993 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HarriettBurch" ;
-			:frequenta :SPLN2021 .
-
-:aluno_2dd5b528-a4c4-4baa-928e-3aeae6bf30d2 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BoydFrye" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_063dff5f-faff-410c-9e28-bf1957442c0a rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HarperCardenas" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_0f21974d-fde3-4e2e-a0d0-ec1449b0b862 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HaleyJoseph" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_622093f3-4b9d-47bb-b10c-114a8de45dae rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CashBlankenship" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_727e9ac1-a540-4e15-a8c8-52e798206a55 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MorenoTucker" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_abfe5dc8-5457-4a92-b9ca-2f2daeb2dd32 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CarlyCantrell" ;
+			:nome "Ola Mayo" ;
 			:frequenta :SPLN2021 ,
 				:DC2021 .
 
-:aluno_9d2373c2-0513-49e9-8c66-5e6ac62fc884 rdf:type owl:NameIndividual ,
+:aluno_d01035c5-f6e0-4af1-b3c5-79204ccede81 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "GayleCarroll" ;
-			:frequenta :PRC2021 ,
+			:nome "Suzette Greene" ;
+			:frequenta :IS2021 .
+
+:aluno_918a57b7-a760-47ad-b1a6-a18cd16c285f rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Whitehead Melendez" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_81926503-7e20-4c83-83ad-4f9e1cb6ad04 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Pickett Patrick" ;
+			:frequenta :SPLN2021 ,
 				:IS2021 .
 
-:aluno_51189ab5-0040-47d5-a2a4-422f8c8916ab rdf:type owl:NameIndividual ,
+:aluno_fe9f9df4-41e0-4ef7-8768-5478fb5e00da rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "StarkHodge" ;
+			:nome "Marks Sanders" ;
+			:frequenta :DC2021 .
+
+:aluno_e02e7723-d797-466a-ad57-13c48ee42090 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Ora Cash" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_97568f12-87cb-4626-91a1-612f5e147a7b rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Reynolds Spears" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_e2daaf04-c6a7-4404-85b0-9b5032ef33cd rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Berry Vasquez" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_d2cb6c8d-e029-4f79-8b54-2a306be4fc11 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Vaughan Nunez" ;
 			:frequenta :IS2021 ,
 				:DC2021 .
 
-:aluno_baf7c2b4-4757-4840-a9a0-128641e57802 rdf:type owl:NameIndividual ,
+:aluno_d2ec7e1c-8c11-4c95-9bb9-983adcb4f416 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "SolisAbbott" ;
+			:nome "Wade Moss" ;
+			:frequenta :IS2021 ,
+				:PRC2021 .
+
+:aluno_b3e2c152-6c9f-410d-a559-d16eb1fc3ebb rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Beatriz Farrell" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_908fae81-0dcb-4b0a-8e56-83589c024d71 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Lewis Burris" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_4ce9d526-4057-4513-bbeb-5db6281a0393 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Elma Rasmussen" ;
+			:frequenta :DC2021 ,
+				:SPLN2021 .
+
+:aluno_1d0c3c24-91c4-40af-bb8b-7bfa9269136f rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Margery Buckley" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_d1fc5014-a06d-42e8-9c92-4089adf72ac3 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Velez Floyd" ;
+			:frequenta :IS2021 .
+
+:aluno_09e578fd-b29e-4dd6-8355-f245dc27a63e rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Gilda Horton" ;
 			:frequenta :PRC2021 ,
 				:DC2021 .
 
-:aluno_65fcb8d6-237b-4b18-b179-370d282f7983 rdf:type owl:NameIndividual ,
+:aluno_ce0a4956-4d47-49c4-b5a8-eeee403c72b5 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "BennettChristensen" ;
+			:nome "Kristie Larsen" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_3ab0a7cf-4ce9-4f76-baf8-42a101963945 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Monroe Solomon" ;
+			:frequenta :SPLN2021 .
+
+:aluno_8e0b6396-6f57-4cfa-9df7-dda9c08f5a7d rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Karla Wolf" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_c08dadf8-63c2-4a7d-a4b9-2950be9d31b9 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Marissa Sampson" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_821d0e0c-1bc0-4bc5-86d7-4cd5f04137eb rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Jamie Poole" ;
+			:frequenta :DC2021 .
+
+:aluno_db2944bb-2452-44b5-a36f-2a9e826c1e06 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Vincent Brown" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_d82c1724-8526-47e3-a658-2ad38cf7ba6f rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Renee Hensley" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_bff250f6-4aaa-4de9-b5ce-9c151b0d85f6 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Vance Mcfarland" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_aaec37ea-187d-4a71-93f9-92f4da597d6f rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Carly Benton" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_6b5d7238-1afc-4441-95c4-cba896b1bcdf rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Hinton Holder" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_14f66ef2-96a5-4da3-a844-8cb826be218d rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Beck Butler" ;
+			:frequenta :PRC2021 ,
+				:DC2021 .
+
+:aluno_3b81bc81-3b4d-42b5-b013-972f33e71d0b rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Luisa Boyle" ;
+			:frequenta :IS2021 ,
+				:PRC2021 .
+
+:aluno_ea045334-0713-4f91-9c4a-ab2ecf50bbf5 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Maggie Stokes" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_70899a9d-84ac-4c97-b617-466befc880db rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Thomas Tyler" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_621a4e56-5284-46c9-ac27-dde71c8d0d6d rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Bonner Mcgee" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_b0fcd61d-ae53-4d4d-90ce-9cc8712c0404 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Morrow Velez" ;
+			:frequenta :SPLN2021 ,
+				:IS2021 .
+
+:aluno_e33ed276-fde4-41de-b072-c3e937c6e832 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Booth Foley" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_cde685db-aa67-42f8-9628-8232fa6e9d99 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Bender Robbins" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_0bd95a85-839e-4ce6-8b38-93c1a062ff6c rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Young Camacho" ;
+			:frequenta :SPLN2021 .
+
+:aluno_f3290585-688c-47f5-9d88-06012d79afb3 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Dudley Moran" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_6e98e11d-df6f-4e9a-ab8c-c2ceae2d831c rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Mayo Potts" ;
+			:frequenta :IS2021 .
+
+:aluno_238707ef-ab64-4fd1-99a1-33c294e5a650 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Allie Huber" ;
+			:frequenta :DC2021 .
+
+:aluno_1beef6b6-0dcc-4950-8f56-e49b358c357d rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Conway Deleon" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_7692dc5a-c54b-4d7b-9b3c-02205177f4c0 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Maritza Richard" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_775d2cbf-e970-4bea-a657-0192687357e6 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Alison Rivas" ;
+			:frequenta :DC2021 ,
+				:SPLN2021 .
+
+:aluno_991faccd-79d5-452f-97d3-fb4d9e490f33 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Chandler Koch" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_fe507d74-be27-4fa4-ab85-43ac3cfa31ab rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Noel Finch" ;
 			:frequenta :PRC2021 .
 
-:aluno_184738de-d065-42ee-8105-0b623757a162 rdf:type owl:NameIndividual ,
+:aluno_98fe464a-4af8-4b26-b88e-afb99c8b5118 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "CollinsWelch" ;
+			:nome "Cobb Howell" ;
+			:frequenta :PRC2021 ,
+				:DC2021 .
+
+:aluno_cc9fd2f8-3445-4ee8-9d84-1139f4d7fd87 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Doreen Bolton" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_3dc81d3d-be1b-4613-aa58-4b937a1b7f46 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Kirkland Gardner" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_74e92b0c-1547-4bc5-aa7d-db3b822a758b rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Rogers Wagner" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_0ab3683e-a7c2-44e7-945d-ad2e61785ff9 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Nixon Schneider" ;
+			:frequenta :IS2021 ,
+				:PRC2021 .
+
+:aluno_493a998c-a975-4365-ae8f-709c5b256db9 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Goodwin Joseph" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_6e62498f-e4a7-4980-b1dd-1bbd14b5f37b rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Bryant Pittman" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_e7ebb41f-2ca6-428d-b19b-f856ad6c81d4 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Goldie Pope" ;
+			:frequenta :DC2021 .
+
+:aluno_ec947343-7765-4fc2-8d80-5881a4c4ec80 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Bates Swanson" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_ad870e73-ed9f-4a25-b84d-236020201bcb rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Wood Berg" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_5fc0b514-2b1f-4f82-9d36-733b52d56eb1 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Jodi Browning" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_247e400c-1f06-4936-9701-6418e5e6d74e rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Luz Owens" ;
+			:frequenta :DC2021 .
+
+:aluno_190a2dcb-7856-4e9f-af7f-f180dd02db75 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Taylor Combs" ;
+			:frequenta :IS2021 ,
+				:PRC2021 .
+
+:aluno_76667955-5f0f-49c5-88b2-27a863d9f3d7 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Lenora Irwin" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_68ca9152-a4c3-465f-b406-f8b5d55fee89 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Carmen Brewer" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_a5c3a4af-3bd2-486d-82fe-ad3c77f4afec rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Glenda Vega" ;
+			:frequenta :IS2021 .
+
+:aluno_7c4c1dd3-5353-4da0-97c2-8ade11724801 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Soto Terry" ;
 			:frequenta :DC2021 ,
 				:SPLN2021 .
 
-:aluno_ee0fd9c8-f5c0-480d-b882-8b04cf6080bd rdf:type owl:NameIndividual ,
+:aluno_accc1f2d-0ae9-42b6-bef3-f71bfc3c836d rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "FletcherKirk" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_fdd3ce9a-8cff-4a91-bc2e-e9b857e2a069 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "TessaSchneider" ;
-			:frequenta :SPLN2021 ,
-				:IS2021 .
-
-:aluno_aec2e1c0-50f6-4adf-b053-0aa6b9bada9e rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "DotsonReese" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_4e2e9017-1692-4849-89f7-96b647a96f8c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "VegaGood" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_76e98017-2478-409c-8c88-fc42f39f4d6c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "SniderRobles" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_7292ccaa-c8eb-477e-8f4a-153fad207789 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "WatkinsMcconnell" ;
-			:frequenta :PRC2021 ,
-				:DC2021 .
-
-:aluno_03ef6b8b-818b-4325-9ce6-ec65904da578 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BrooksByers" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_64a6cffd-eb7b-4cd8-bfbf-313ddecab147 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FosterGonzalez" ;
-			:frequenta :PRC2021 ,
-				:DC2021 .
-
-:aluno_03b7a792-e737-47b4-b409-04d52368414c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LiliaKing" ;
-			:frequenta :IS2021 .
-
-:aluno_a90a7bd8-193f-445a-9334-c966ba4caeb0 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "McmillanMichael" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_7ca6a4b4-a5c3-4e7b-863f-0cc72a488ca2 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KiddParks" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_d642d3c3-6951-418a-a816-4fe7508c6d03 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MistyStephens" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_150b860b-46e1-418b-99f6-b29d42f7bb72 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FloydMiranda" ;
-			:frequenta :SPLN2021 .
-
-:aluno_9524ee8c-d9ff-4ca8-b45b-5a9cc9aeec51 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "RachelLove" ;
-			:frequenta :DC2021 ,
-				:IS2021 .
-
-:aluno_a31aaeb7-6158-4d4c-8846-6532567c640e rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "GlennaSparks" ;
-			:frequenta :SPLN2021 .
-
-:aluno_d7832166-f387-47cc-b7d7-c803a9316110 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AddieWeiss" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_ebe49c68-749b-4955-928c-9ef1dbeba716 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "DownsSharp" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_4f7d2409-9529-47a1-abfe-8809fc5635ae rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ChandlerAtkinson" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_54e6c252-761a-4050-a97f-e641e6d24aaa rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ArlineFinch" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
-
-:aluno_6a82ee07-9177-4cfc-a830-c999d10af73c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "WhiteheadSykes" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
-
-:aluno_c6c216f9-6d21-4e0e-97f0-d0e308bc5e79 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CeciliaGonzales" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_60f86b20-adbc-4f73-a0e8-86ee3f464955 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CamposLancaster" ;
-			:frequenta :SPLN2021 .
-
-:aluno_7565c3bb-c0a0-4ff3-ab0d-d775d9138cb2 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "StoutAndrews" ;
+			:nome "Whitaker Wilkins" ;
 			:frequenta :PRC2021 .
 
-:aluno_972c2c4e-ca1c-4178-b71b-7d988f2d8cda rdf:type owl:NameIndividual ,
+:aluno_d4066a86-12b1-419f-8c1b-16dbd9b3e781 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "GuyBernard" ;
+			:nome "Etta Hayes" ;
 			:frequenta :PRC2021 .
 
-:aluno_e8f4deb8-f29a-4abc-a22e-e5011d60936a rdf:type owl:NameIndividual ,
+:aluno_304afeb1-c404-4954-b4c8-b33c669c2daf rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "WareWoodward" ;
-			:frequenta :SPLN2021 .
+			:nome "Lolita Medina" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
 
-:aluno_bc930b72-cb83-4f8b-82bb-3827cc32db74 rdf:type owl:NameIndividual ,
+:aluno_39846785-b514-4c01-9ce4-10c040d330dd rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "CraftBender" ;
+			:nome "Tameka Austin" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_8df73f7b-e73e-4823-b280-9a83914bdb88 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Julia Bishop" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_eb90e376-5d6d-4b2d-8737-77ffff3affa8 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Kemp Mcintyre" ;
+			:frequenta :PRC2021 ,
+				:DC2021 .
+
+:aluno_be04ba18-e239-423f-bdcd-60972c1cae8e rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Shirley Britt" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_66f24795-e2b8-48b7-830d-3c7ae09e0aa7 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Stanton Calhoun" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_240156a0-1b66-498c-980c-ae7fd61f99e3 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Gutierrez Santos" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_17afd5b7-717e-405a-90bb-c82fac0062ea rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Snyder Gibson" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_ce37d297-9fa0-4b80-b3f7-facb775d3cac rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Ethel Haley" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_1ff1e230-6cc9-49d0-9d6f-5b5ced694169 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Christi Pennington" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_20624bb2-42fb-4548-9b37-4000f4d7b997 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Benita Ewing" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_e62de855-a0e8-4d99-bd33-dc99c8d48a31 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Gibson Bradley" ;
+			:frequenta :IS2021 .
+
+:aluno_2a65be69-25a7-485a-8fa8-aeb12eb1664d rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Best Buck" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_26226ae7-dca8-44b2-8502-de2a09175d10 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Dickerson Dyer" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_50fd232b-059a-4d31-b06e-80ffa45136c1 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Nanette Barron" ;
+			:frequenta :DC2021 ,
+				:SPLN2021 .
+
+:aluno_52809376-f76d-42bb-ad9e-3b3cb61aea53 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Jenifer Duran" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_c4a50fdb-09dd-4abc-a2c6-37a8181f799f rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Krista Guerrero" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_0075e69c-ad82-4900-978d-e4a54589244e rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Daugherty Thornton" ;
+			:frequenta :DC2021 .
+
+:aluno_5bd8ff80-3018-4006-8b00-398caebbc0f6 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Terry Abbott" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_d0239fdc-f7ec-4306-a040-6de15c65ea78 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Nelson Lester" ;
+			:frequenta :IS2021 .
+
+:aluno_cbf5a290-5f28-4018-b01c-3b8d38e4e22b rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Good Moses" ;
+			:frequenta :IS2021 .
+
+:aluno_1fc9801d-92a7-4275-840a-9dde90c99ad6 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Teri Kent" ;
+			:frequenta :IS2021 ,
+				:PRC2021 .
+
+:aluno_a15b96fa-c07a-47fe-a76b-7e296c7900ac rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Fay Stein" ;
+			:frequenta :IS2021 .
+
+:aluno_49451ee2-54f7-4f82-ac96-91544a941c8f rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Adrian Cherry" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_ca287032-760c-4756-9e87-2b466c7887e8 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Cantu Delacruz" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_d926c8fa-d25f-49f5-8c5f-0b476c723821 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Potter Oneil" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_ed7724ee-290f-4d1d-98bf-9c0d8971bd2b rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Latisha Grimes" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_aff5cacc-8b34-48e0-9a8d-1d4baed7d370 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Schroeder Pate" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_b1e96aa1-ea02-4a83-b189-ee0d16d5cdb4 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Gillespie Battle" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_fa6dbec0-67e3-4e74-8825-b0e689adc2d0 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Hewitt Wiley" ;
+			:frequenta :PRC2021 ,
+				:DC2021 .
+
+:aluno_a0661db7-2423-49aa-8417-555e137d6928 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Bianca Dalton" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_fc2903b2-d048-46a9-ba12-56472bbecd3c rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Maryanne Rojas" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_4647d5ea-c6a1-4dd7-902d-fa1972d79d4e rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Miriam Bush" ;
+			:frequenta :PRC2021 ,
+				:DC2021 .
+
+:aluno_6aa6f9f4-7594-430a-b24b-6350a5796ebc rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Valdez Mccullough" ;
+			:frequenta :PRC2021 ,
+				:DC2021 .
+
+:aluno_86d6b2fa-872c-4e15-95e4-e7a0974ab7c3 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Mills Clayton" ;
+			:frequenta :PRC2021 ,
+				:DC2021 .
+
+:aluno_a899e304-bf84-42f3-bd52-c953a9dfcdbf rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Curry Marsh" ;
 			:frequenta :PRC2021 .
 
-:aluno_5b3059ec-e94e-4d22-834e-ebac8afab840 rdf:type owl:NameIndividual ,
+:aluno_13700c11-ad46-40f2-b1ad-7827a7f3b7d4 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "VasquezHendrix" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_ae304ab3-3f6c-475f-9857-85c2e2ff0aad rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LindsayAdams" ;
+			:nome "Luann Cline" ;
 			:frequenta :SPLN2021 ,
-				:IS2021 .
-
-:aluno_bb8323d1-3ad8-4d84-8aee-41d3cd72428f rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HorneBond" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_0a70a1ed-8230-41cb-93ce-f95cf239dadb rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "VickyGilliam" ;
-			:frequenta :PRC2021 ,
 				:DC2021 .
 
-:aluno_e20034d1-bced-4803-a7bd-08d356a12952 rdf:type owl:NameIndividual ,
+:aluno_214ea317-5389-4171-873b-598e51b0e88e rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "EttaAnthony" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_0fb5462a-41ce-4420-8097-6b58c832d527 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "StantonSawyer" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_64866197-4ac1-4721-a5fc-4a80e680f70f rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "PatelDunn" ;
-			:frequenta :SPLN2021 .
-
-:aluno_6496c084-6828-419c-8c9a-14be41386610 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BrianaWarner" ;
-			:frequenta :IS2021 .
-
-:aluno_6305293b-4a3e-4273-99fa-eaf69210a2a9 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KatrinaNichols" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_4771b0f2-5929-4627-bc7e-d1b955f51c84 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ErnaRojas" ;
-			:frequenta :PRC2021 ,
+			:nome "Pearson Pitts" ;
+			:frequenta :DC2021 ,
 				:SPLN2021 .
 
-:aluno_a8f56545-7f87-4d75-85f3-4868d3a283f9 rdf:type owl:NameIndividual ,
+:aluno_731ae467-35c7-47be-a19c-65159c703b3d rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "EarleneHurley" ;
-			:frequenta :IS2021 .
-
-:aluno_3cabad7f-fce8-4eaf-9777-dba324234da9 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FredaCooley" ;
+			:nome "Jody Chaney" ;
 			:frequenta :SPLN2021 ,
 				:PRC2021 .
 
-:aluno_4354806c-203f-41fb-a9b2-7715ac279fb9 rdf:type owl:NameIndividual ,
+:aluno_eacb36e7-143a-4de6-954e-6dd2c02a0e9f rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "CorinneHolman" ;
+			:nome "Price Middleton" ;
 			:frequenta :IS2021 ,
 				:SPLN2021 .
 
-:aluno_7cd40767-d13a-47c0-a1f7-2705aa59f814 rdf:type owl:NameIndividual ,
+:aluno_6aab6f40-4aa4-41f1-80fb-ba517672a587 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "LeaMurphy" ;
+			:nome "Gabrielle Cain" ;
+			:frequenta :SPLN2021 .
+
+:aluno_30bbff8e-34c8-457d-962f-7f7683d3416a rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Glenda Conner" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_4e93a9fc-a6cc-4713-98fb-19ab5e520c72 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Watson Perez" ;
+			:frequenta :SPLN2021 .
+
+:aluno_4d2b5a97-ae0a-463d-9518-2de5869629d4 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Hodge Deleon" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_4e828552-9553-457e-b031-014f632a2eca rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Cruz Riggs" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_88a6e248-726d-4db2-90c5-263ccea2ffc6 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Chan Herring" ;
 			:frequenta :DC2021 ,
 				:IS2021 .
 
-:aluno_698b9908-8b2c-4836-92a2-fbe7d644c149 rdf:type owl:NameIndividual ,
+:aluno_d70c6fb8-76fd-47ef-b79b-71cf05f47414 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "SloanGraham" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_907aadd5-638b-4ef9-807c-04880e2bd178 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LuisaTerry" ;
-			:frequenta :DC2021 ,
-				:IS2021 .
-
-:aluno_be0d4f41-54e4-4d23-a105-054fc0316da2 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "StaceyGibson" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_df1dfb39-e4a1-4a03-b77e-6cb01d8343b9 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KellieReeves" ;
-			:frequenta :DC2021 .
-
-:aluno_7b0682be-d55b-475a-bb8d-769fb6f35aa9 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "TrevinoHowe" ;
-			:frequenta :DC2021 .
-
-:aluno_f63d4cba-8bac-46d6-b0bb-a1965311198a rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CatalinaMarks" ;
+			:nome "Christa Vance" ;
 			:frequenta :PRC2021 ,
 				:DC2021 .
 
-:aluno_769d00b2-8fdd-42af-b71c-3a7261a29178 rdf:type owl:NameIndividual ,
+:aluno_01ff7de1-965b-4980-bf8b-b1c772de9984 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "MosleyMoran" ;
-			:frequenta :SPLN2021 .
+			:nome "Logan White" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
 
-:aluno_f181e639-9a93-495e-8cd6-93a03b885676 rdf:type owl:NameIndividual ,
+:aluno_2455c024-6169-4bad-8893-d612783f61cd rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "JosephQuinn" ;
+			:nome "Roth Maldonado" ;
+			:frequenta :DC2021 .
+
+:aluno_1e59ee3e-5ded-4ca3-b792-7b208894c486 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Clarissa Todd" ;
 			:frequenta :SPLN2021 ,
 				:IS2021 .
 
-:aluno_918475de-e157-4669-87fd-2221ef84f3c4 rdf:type owl:NameIndividual ,
+:aluno_5432eb34-cd29-45a8-a2b4-863e0de52a56 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "ReneeHuffman" ;
+			:nome "Gilbert Jefferson" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_678f92d2-53db-4b1f-bafa-0b3d3f9322aa rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Willie Lucas" ;
+			:frequenta :DC2021 ,
+				:SPLN2021 .
+
+:aluno_41b9072c-183e-4311-a04c-921589932be7 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Murray Barber" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_b131c700-642d-4991-8036-0a8effd477f0 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Bethany Burton" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_33b2cfbd-cf91-4cc1-a586-8327e212b47a rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Melinda Roy" ;
+			:frequenta :DC2021 .
+
+:aluno_5df3d5a2-d235-4c48-8eb4-8f9094ad028d rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Holcomb Charles" ;
+			:frequenta :IS2021 .
+
+:aluno_23042e3d-5043-4e64-9c7a-d285c1384251 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Cote Robles" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_c382b0fc-64a5-419d-8d5b-ae8d351e1128 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Irene Guthrie" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_97509ded-552b-4108-a31f-efed9550ac90 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Lorene Cruz" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_5232b7ea-fca9-42ac-9715-e1c2bf717437 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Eleanor Price" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_8b176af7-c65a-4c5a-8f13-29c1d24973ea rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Britt Sandoval" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_a9fa36eb-43ef-4c66-8369-eaadeba845a7 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Contreras Goodwin" ;
+			:frequenta :SPLN2021 ,
+				:IS2021 .
+
+:aluno_f8998980-3b0f-4f63-b40f-3090654fbec6 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Monroe Garrett" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_99296c6e-3878-44fe-b67c-3cabd4442448 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Terri Mitchell" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_30820511-0105-46c5-92af-7e852ebef267 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Cathryn Walsh" ;
+			:frequenta :DC2021 .
+
+:aluno_2646bdfd-8791-43b9-9558-240c34ad9e96 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Wong Knowles" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_3d61b3a5-9381-49c9-9a7d-f87d01a86a50 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Roman Wiggins" ;
+			:frequenta :SPLN2021 .
+
+:aluno_72518213-86b4-4fe1-875d-f94904940f75 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Hunter Berry" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_e91d8c98-a08f-4455-8985-be664ea71273 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Vicki Armstrong" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_a2be4e48-e765-4606-8b85-687361c697c7 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Mccarty Miranda" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_a5a4e299-5c8b-47ca-8686-cc517d6d950c rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Audra Taylor" ;
+			:frequenta :DC2021 ,
+				:SPLN2021 .
+
+:aluno_56b353e5-e73a-4f33-97b7-fbac3a3f8056 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Vera Brennan" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_bd0ff291-af15-4165-bd40-a01683598ff5 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Vaughan Blackwell" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_4fbfb517-b05e-45f7-a28f-74909a549279 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Morse Garcia" ;
+			:frequenta :IS2021 ,
+				:PRC2021 .
+
+:aluno_dbaa0184-79f7-4823-b728-ac30ed04fe02 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Kennedy Benson" ;
+			:frequenta :DC2021 ,
+				:SPLN2021 .
+
+:aluno_77d33613-7b5d-40b6-af82-49bca4d8ef71 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Autumn Tate" ;
+			:frequenta :IS2021 .
+
+:aluno_91c19b65-31b8-498f-9aed-2e958a520787 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Beryl Mills" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_83ddbb2c-9bf5-4650-a71b-da97fad2f046 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Washington Vasquez" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_69009e96-a1e8-44d2-bd99-3c5868c26066 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Barr Cabrera" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_348c3569-4f4c-4c95-ba73-21efee2848de rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Mullins Dean" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_3d9ef0e9-6464-4b70-8d95-2780b7c3fffe rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Etta Estrada" ;
+			:frequenta :IS2021 ,
+				:PRC2021 .
+
+:aluno_239dbecd-3151-423e-b26c-c304b2d346c4 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Dixon Webb" ;
+			:frequenta :DC2021 ,
+				:SPLN2021 .
+
+:aluno_8e163074-5fa5-40cd-95d9-078cb6bd5374 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Sellers Riley" ;
+			:frequenta :SPLN2021 ,
+				:PRC2021 .
+
+:aluno_757db624-a63f-4af8-9c7d-ffc0f40405b6 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Green Woodard" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_199742dd-da28-4812-a1d7-cdcee8efcf6e rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Milagros Warren" ;
+			:frequenta :IS2021 .
+
+:aluno_fa1b386d-231a-41d5-928a-ba0e622ca23f rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Loretta Bishop" ;
 			:frequenta :PRC2021 .
 
-:aluno_49fee3dd-51ad-4142-80c2-a75797eea516 rdf:type owl:NameIndividual ,
+:aluno_e25ef104-f6b4-4938-b389-30fdcad00819 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "DeliaCallahan" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_b4f4aaf0-fdf3-4fd5-aebb-3746c45be28a rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "EnglishJenkins" ;
-			:frequenta :SPLN2021 ,
-				:IS2021 .
-
-:aluno_43e86fa6-21f4-4252-b388-8623d085f3bd rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MarshaNorton" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_a41b5710-bc69-414a-8eba-b61693af82ea rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "UnderwoodBooth" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_7baea83f-940b-48e1-9d73-54e94c1dd3f1 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AlissaMcpherson" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_89536e66-c718-474a-839f-84dd46ca7ed8 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KariOconnor" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_43332c29-02be-43f9-814c-d9fa2455a8af rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BelindaMunoz" ;
-			:frequenta :IS2021 ,
-				:SPLN2021 .
-
-:aluno_c91981be-17ad-4df1-bbe3-f9b33e62e1da rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ConradPatton" ;
-			:frequenta :DC2021 .
-
-:aluno_e90411d0-b236-430b-9074-35902e06b806 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "JulietMorrow" ;
-			:frequenta :IS2021 .
-
-:aluno_b71d1b5a-a62d-4aef-a734-29333fc961ea rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ElvaHayes" ;
-			:frequenta :DC2021 .
-
-:aluno_6b0be278-fc5a-4df7-bbec-a32c75326469 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "OneilRichard" ;
-			:frequenta :DC2021 ,
-				:IS2021 .
-
-:aluno_1cfa5566-913a-4470-beee-46261c2a4b58 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LucilleCameron" ;
-			:frequenta :DC2021 .
-
-:aluno_e80f192b-f7fe-4b8d-a20a-c1b1268da23b rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "JordanRush" ;
+			:nome "Laurel Morton" ;
 			:frequenta :PRC2021 ,
-				:SPLN2021 .
-
-:aluno_dc5cd203-bb91-4260-b709-021de58cb295 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HenriettaTodd" ;
-			:frequenta :SPLN2021 ,
 				:IS2021 .
 
-:aluno_c44408d1-2963-4d72-b43d-7ed67a616ed3 rdf:type owl:NameIndividual ,
+:aluno_ca7a0c12-9849-44d7-9953-cf6eed711454 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "SashaAshley" ;
-			:frequenta :SPLN2021 ,
-				:IS2021 .
-
-:aluno_aa1ccfe3-a4a8-424f-a10c-b9068cfa6253 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "StephensOneal" ;
+			:nome "Rhea Garner" ;
 			:frequenta :IS2021 ,
 				:SPLN2021 .
 
-:aluno_78fb03db-7b38-4381-9762-47ee83beb0d5 rdf:type owl:NameIndividual ,
+:aluno_26b15e84-70c8-44ca-b088-d88e53904d79 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "StevensBarrera" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_560ac166-c9ec-4ba9-ade7-db166bec52db rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BryanMaynard" ;
+			:nome "Berry Logan" ;
 			:frequenta :SPLN2021 .
 
-:aluno_84b9e6e1-ef69-4c65-a927-93f225f3632c rdf:type owl:NameIndividual ,
+:aluno_def0bffc-12c9-4b5d-838a-2ad110af3bb7 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "FarleyMendez" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_160c61f4-6a25-40b9-8100-6155befcf456 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "EveJuarez" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_2dace4f5-0735-4971-ac6c-4a6e066a8af3 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "PaulBenjamin" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_f61d7a69-5ad6-4347-9851-6f80f37e5b73 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ObrienAlvarado" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_2da8f8e1-052f-45a9-a7f4-86853b28064e rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FloresHawkins" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_04438746-49f4-43be-8b8b-52cae2ad1874 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KathieHarvey" ;
-			:frequenta :IS2021 ,
-				:SPLN2021 .
-
-:aluno_50107355-48e2-40e4-98df-041988b035b4 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AngelineBerry" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_32a81933-681e-462e-9726-e5d5bbd39b1b rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BaxterStevenson" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_a20335e9-8fd7-4c42-8bde-9d25bb4d1a62 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ReesePetty" ;
-			:frequenta :IS2021 ,
-				:SPLN2021 .
-
-:aluno_15e227c0-a11e-4799-8858-c56601d7c2d1 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ReneYang" ;
-			:frequenta :DC2021 .
-
-:aluno_0f1a2926-82e3-413a-bf7b-45d8190d75f3 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "TishaChapman" ;
-			:frequenta :IS2021 ,
-				:SPLN2021 .
-
-:aluno_c71c6e35-5bb8-489c-a9a8-922e1ed253e8 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HeatherSharpe" ;
+			:nome "Tara Stephens" ;
 			:frequenta :SPLN2021 ,
 				:DC2021 .
 
-:aluno_76233a12-866a-442f-bf76-b8e8aa0fcf1f rdf:type owl:NameIndividual ,
+:aluno_bbe4cde6-7d8f-416c-b8cd-3d3dcf0ff5fe rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "AmaliaHall" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
-
-:aluno_05f4d81d-aca6-4f34-a940-4335efddabc5 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "TownsendHoffman" ;
-			:frequenta :IS2021 .
-
-:aluno_82bcf989-572d-437e-af90-aa7fd505fe7d rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AvisBarlow" ;
-			:frequenta :IS2021 ,
-				:SPLN2021 .
-
-:aluno_6ee6b7a0-d298-46f6-aa19-e0e5e3d2df81 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ParrishCampos" ;
+			:nome "Bianca Davenport" ;
 			:frequenta :DC2021 ,
-				:SPLN2021 .
+				:IS2021 .
 
-:aluno_94b0ff17-4fae-4366-9e36-4c56390ced11 rdf:type owl:NameIndividual ,
+:aluno_7bc73a48-f26d-4373-b8d0-219e4a17fe4c rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "ElbaPreston" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_13624618-327d-4909-8a7f-8fad5e48c051 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AveryRiddle" ;
+			:nome "Ayers Griffith" ;
 			:frequenta :DC2021 ,
 				:PRC2021 .
 
-:aluno_3a1ddb38-9abd-447e-a3dc-ae74ae5188ae rdf:type owl:NameIndividual ,
+:aluno_66501b35-c301-4194-b8fa-59a66698909e rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "ShaunaAlbert" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
+			:nome "Annabelle Soto" ;
+			:frequenta :IS2021 .
 
-:aluno_c75526e1-c04b-4221-b362-23db09e8940d rdf:type owl:NameIndividual ,
+:aluno_f549fb03-1e57-4d92-ba24-f9d95f2b94be rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "MargaretLivingston" ;
+			:nome "Sharp Cameron" ;
+			:frequenta :DC2021 .
+
+:aluno_fbdd03c3-b5cd-4ad2-9e16-b4c17b47f777 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Livingston Hickman" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_a5d87127-18af-4d4b-9801-3e3fc40ea711 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Kathleen Underwood" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_426729bc-eae3-44a3-947b-ce272dcbdfa1 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Hancock Rodgers" ;
+			:frequenta :SPLN2021 ,
+				:IS2021 .
+
+:aluno_97a8dba3-1484-4089-8df3-5502ebb186ae rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Wolf English" ;
 			:frequenta :PRC2021 .
 
-:aluno_7f4902df-2e20-480b-aaa6-1d5e679e0cd9 rdf:type owl:NameIndividual ,
+:aluno_ec38b3ec-0071-4023-8bdb-aa0c51679d99 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "WeaverWillis" ;
-			:frequenta :IS2021 .
-
-:aluno_339fe51e-7fe7-42f0-9f39-5d0ab7824009 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CopelandPitts" ;
-			:frequenta :PRC2021 ,
+			:nome "Day Gibson" ;
+			:frequenta :DC2021 ,
 				:IS2021 .
 
-:aluno_7075f0e4-fc9a-448d-a4e8-60d9d0515d3d rdf:type owl:NameIndividual ,
+:aluno_324f234a-499f-4de5-872e-f9fdc3e8c758 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "WeberMoses" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
+			:nome "Maritza Cervantes" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
 
-:aluno_950814dc-e643-4b86-b770-e0ebab778b00 rdf:type owl:NameIndividual ,
+:aluno_5bb0d106-5a1a-481a-991c-49d20eaca9ef rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "ElisabethConrad" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_fe50c69b-fcc1-4e06-9bec-22b15768223d rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LenaAllison" ;
+			:nome "Jewell Diaz" ;
 			:frequenta :SPLN2021 ,
-				:PRC2021 .
+				:DC2021 .
 
-:aluno_663cc6eb-b09d-48d7-9d1d-17b4dc459298 rdf:type owl:NameIndividual ,
+:aluno_ad67b380-b622-477f-b64d-68b7b705aea8 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "LinaDunlap" ;
+			:nome "Case Harper" ;
 			:frequenta :DC2021 .
 
-:aluno_07c41ff1-1964-4b3e-baea-d07d44c11270 rdf:type owl:NameIndividual ,
+:aluno_d093b2f9-c7e7-4eb8-8e59-3499a28f3215 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "SheilaAlexander" ;
-			:frequenta :PRC2021 ,
-				:IS2021 .
-
-:aluno_39170af3-38c5-43d0-a272-af4b6c67b33c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "DonaldsonBrooks" ;
+			:nome "Marshall Howell" ;
 			:frequenta :IS2021 .
 
-:aluno_b6bc1a9e-50c0-4544-8da9-bd92cadd499c rdf:type owl:NameIndividual ,
+:aluno_839f6d08-9b72-408a-810d-194dd1da60f7 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "LittleBuckner" ;
-			:frequenta :DC2021 ,
-				:IS2021 .
-
-:aluno_c61abb45-db61-47ea-ab32-c1ec7c945d45 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HerreraCompton" ;
-			:frequenta :IS2021 .
-
-:aluno_b8eab8f1-b999-4c31-9f12-4bd14bf7b993 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "OllieCantu" ;
+			:nome "Pitts Coleman" ;
 			:frequenta :SPLN2021 ,
 				:PRC2021 .
 
-:aluno_5d556f0d-ba07-4f05-8956-358339382330 rdf:type owl:NameIndividual ,
+:aluno_f702e165-d52c-4fa9-bb59-2ea82ed19f30 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "BarrMorgan" ;
+			:nome "Maricela Dorsey" ;
+			:frequenta :DC2021 ,
+				:SPLN2021 .
+
+:aluno_596d882a-24c0-43cb-9e10-dbfa1f5d0117 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Mendoza Goff" ;
 			:frequenta :PRC2021 ,
 				:DC2021 .
 
-:aluno_8ab989e0-053c-4e21-84a9-458d37c634d2 rdf:type owl:NameIndividual ,
+:aluno_8331927d-bcea-4b08-aa5e-3909a4b906c1 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "PollySimmons" ;
+			:nome "Perry Pope" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_e9e305ba-bfe7-4f8c-9f99-ef5177bd7db8 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Lucille Ross" ;
+			:frequenta :IS2021 ,
+				:PRC2021 .
+
+:aluno_79368df9-5c11-402c-96f8-c4ce0ba326cd rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Sandy Montoya" ;
+			:frequenta :PRC2021 ,
+				:DC2021 .
+
+:aluno_a34bf3e2-b634-4a89-a86a-89c61b3a7f83 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Strickland Campbell" ;
+			:frequenta :SPLN2021 ,
+				:IS2021 .
+
+:aluno_2df29611-8787-40e5-baa7-ffd4d60c5292 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Gilda Mueller" ;
+			:frequenta :DC2021 .
+
+:aluno_1014d78c-6670-41b4-bec8-a10c5e631d9b rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Dudley Martinez" ;
+			:frequenta :PRC2021 ,
+				:IS2021 .
+
+:aluno_49cfd484-028a-4073-8bb4-a8c881617b2c rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Emilia Brooks" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_46229290-04d8-4f51-980f-31f9631a2d77 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Gonzalez Fulton" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_f508040c-5f3a-4e26-80a4-32c0f18fea18 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Herminia Burch" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_d029aa3f-4731-45d9-9c7b-bc9bc847124a rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Alta Byers" ;
+			:frequenta :DC2021 ,
+				:PRC2021 .
+
+:aluno_5b461e91-f12c-42d2-a71d-d79634fe266a rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Maribel Solomon" ;
+			:frequenta :IS2021 ,
+				:SPLN2021 .
+
+:aluno_cd69750b-b85b-4245-b17f-8b2b3f28212b rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Jimmie Lane" ;
+			:frequenta :IS2021 ,
+				:DC2021 .
+
+:aluno_5df8eed0-6e63-4f2e-8906-b7f642f3cbd9 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Short Shaffer" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_1aac6186-3d7d-44e8-9dcd-8ea1c90cf6fc rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Patricia Hess" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_2867f9ca-0d43-4811-80d6-2facdf035213 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Branch Powell" ;
+			:frequenta :IS2021 .
+
+:aluno_c8437637-6240-4163-a4f9-3eb414a4181c rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Sue Nguyen" ;
+			:frequenta :SPLN2021 ,
+				:DC2021 .
+
+:aluno_3fa0b9c7-b672-4677-baab-1e188f4f576c rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Myrna Roach" ;
 			:frequenta :PRC2021 .
 
-:aluno_6dcc0d77-1382-4707-b669-325edd971206 rdf:type owl:NameIndividual ,
+:aluno_1266fd26-a320-4571-b543-291788d17bd8 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "KatherineLeonard" ;
+			:nome "Nichole Hurst" ;
+			:frequenta :DC2021 ,
+				:IS2021 .
+
+:aluno_414107f0-57df-4218-9de3-8836b9cfc4b9 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Rosalyn Villarreal" ;
 			:frequenta :PRC2021 ,
-				:DC2021 .
-
-:aluno_a05f5b54-1150-4c95-b353-09c65d91637d rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "JanaLang" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_a64f2d01-d529-414e-bb50-c5fa5b8920b7 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ParkBartlett" ;
-			:frequenta :DC2021 ,
 				:SPLN2021 .
 
-:aluno_71478809-1239-4c2e-bb83-eda63dbf8066 rdf:type owl:NameIndividual ,
+:aluno_19a9aaa1-f4c3-43d6-9873-5d2146a6280b rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "AdamsWooten" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_28eb7f5a-9e7c-4f9a-8cae-e00d29da946c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "OdomSteele" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_908ef492-2590-461b-bd90-a41572da7838 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BradyRichardson" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_46ccedab-ad3c-4b8b-acca-17033eec26ad rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "VelmaMelton" ;
+			:nome "Navarro Whitaker" ;
 			:frequenta :SPLN2021 ,
 				:PRC2021 .
 
-:aluno_d7a0ca5a-4f44-4be5-b2e3-7138ed3000cc rdf:type owl:NameIndividual ,
+:aluno_886de075-9488-492c-85e8-eb9b30099771 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "RaySimon" ;
+			:nome "Acosta Klein" ;
+			:frequenta :PRC2021 ,
+				:SPLN2021 .
+
+:aluno_c7cf44fd-a9f2-426f-8853-56925c69a703 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Hester Wilcox" ;
+			:frequenta :DC2021 .
+
+:aluno_970791ab-0264-4bf7-a00c-48360e61acb4 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Joyner Harris" ;
+			:frequenta :DC2021 .
+
+:aluno_50c7f012-526f-4225-9f96-03785a8ff5c8 rdf:type owl:NameIndividual ,
+			Aluno ;
+			:nome "Becker Stuart" ;
 			:frequenta :SPLN2021 .
 
-:aluno_359746bf-fe80-4d7f-9a99-16f08761c954 rdf:type owl:NameIndividual ,
+:aluno_19ae984a-f46b-4fda-8a94-ab83948022b8 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "CunninghamMitchell" ;
-			:frequenta :IS2021 .
-
-:aluno_adf31bab-9f16-4d04-bf25-0df3db948bcc rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "DickersonBarnes" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_0245ec30-def4-4dd5-80fc-32baa2861155 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LatashaGraves" ;
+			:nome "Ester Rosario" ;
 			:frequenta :PRC2021 .
 
-:aluno_f976a0c8-0b7a-46cb-b6e7-79955484398d rdf:type owl:NameIndividual ,
+:aluno_26006dce-561f-44bc-9560-947bfc7ca85c rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "CashWoodward" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_745a04e6-7974-41da-a523-44e3420d1993 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "YoungCastro" ;
-			:frequenta :DC2021 .
-
-:aluno_abf74186-9c99-4515-8918-4b0003f9fc27 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CarolineGraham" ;
+			:nome "Stark Dennis" ;
 			:frequenta :SPLN2021 .
 
-:aluno_c445c919-c529-4bad-b427-86559d28e116 rdf:type owl:NameIndividual ,
+:aluno_f4a6da93-f71b-40ae-b2af-7caf13e0f119 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "AdkinsCameron" ;
-			:frequenta :DC2021 .
-
-:aluno_a2646184-a371-4068-a828-6635489909ef rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "JamieGentry" ;
-			:frequenta :SPLN2021 .
-
-:aluno_a6ad4219-a63a-482d-9c25-752bae13af99 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CallieMclean" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_0a3d6951-8fb6-4fd1-b1ef-e414732b253b rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "JacquelynRamsey" ;
-			:frequenta :PRC2021 ,
-				:SPLN2021 .
-
-:aluno_7e872031-dc85-43e1-af3a-57fe3685d142 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HelenaNavarro" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_25d0016b-d6ab-4861-9023-3ea5e27eead8 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "TrishaRuiz" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_b953ee26-ace9-4281-a6f0-9dd3c06606e9 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "JacksonSilva" ;
-			:frequenta :SPLN2021 ,
-				:IS2021 .
-
-:aluno_aff57185-d626-4ffb-a50c-b2fc988674cd rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MaryellenGreer" ;
-			:frequenta :SPLN2021 .
-
-:aluno_0443d73b-f7be-47c8-bed2-b6deefe7deae rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KristinMills" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_b59deba8-66ac-4216-a0a7-27942f2ec573 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "GuySantana" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_25d47aac-fbed-4880-833a-90b7781048d8 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "VictoriaWells" ;
-			:frequenta :PRC2021 ,
-				:SPLN2021 .
-
-:aluno_e7827a5e-eb00-4117-abe0-d5717533d828 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "McdonaldParker" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
-
-:aluno_b285e9c6-dd18-4174-8896-29e790076fba rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "NellieHubbard" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_33103bc8-e7c0-4e9e-bb04-f0d350e587ec rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "CampbellSimpson" ;
-			:frequenta :DC2021 ,
-				:IS2021 .
-
-:aluno_dd53b1e3-b228-4db2-922c-42a29b1dcf46 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "SylviaWilder" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_f50fff69-d144-4f55-b5ef-903666390612 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "NguyenKramer" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_60ba619d-0770-4279-95c9-44ad54fd86d8 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "VegaWall" ;
-			:frequenta :DC2021 .
-
-:aluno_80b17d38-230c-4ba7-9c6e-fc887f51f1bd rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FayeGreene" ;
-			:frequenta :DC2021 .
-
-:aluno_45dd3e90-5f7a-4389-af71-7def02aba48a rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "JuliaHolt" ;
-			:frequenta :DC2021 .
-
-:aluno_9b036dd2-7185-4e54-b9bd-46b5262e554a rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FlorineHiggins" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_af258e03-80be-48d4-833b-f6a0ded252f5 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HouseHughes" ;
-			:frequenta :PRC2021 .
-
-:aluno_517b929a-540a-4c1b-89e9-4c11fa6c38b0 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AndersonFord" ;
+			:nome "Parsons Peters" ;
 			:frequenta :PRC2021 ,
 				:IS2021 .
 
-:aluno_cac5863d-d483-4ee6-8097-092337089221 rdf:type owl:NameIndividual ,
+:aluno_ac04e05e-85ea-4577-b592-249fb50a00f3 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "RachelWalsh" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_f501c3e1-338b-4534-ba34-1b892d6136f3 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MariaPollard" ;
-			:frequenta :PRC2021 ,
-				:DC2021 .
-
-:aluno_4d08f85a-8548-4454-8e8f-43bf206c579a rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AllisonReyes" ;
-			:frequenta :IS2021 ,
-				:SPLN2021 .
-
-:aluno_7388acfd-716c-4c56-b80b-286d90afb661 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FayFinley" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_e1d9a4ff-b6c6-40ea-b9f0-994ba0913c7c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AngeliaMartinez" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_e70aa663-ac5d-4afb-9398-fd626e371151 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "DiazFaulkner" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
-
-:aluno_91af3bd0-b620-411d-9e0c-e6bb41bf0874 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "RiggsMercer" ;
-			:frequenta :IS2021 ,
-				:SPLN2021 .
-
-:aluno_1c66628f-b5a9-463b-84c4-7de9828502d0 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LouNoble" ;
-			:frequenta :SPLN2021 .
-
-:aluno_be3848f2-1035-4aa5-bc9a-d5c586c57f61 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MoonCantrell" ;
-			:frequenta :IS2021 ,
-				:SPLN2021 .
-
-:aluno_02b10f6f-e26e-4904-86a5-d8f1ca1df35b rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "ChristinaKoch" ;
-			:frequenta :IS2021 .
-
-:aluno_9424f64d-a992-4094-aa9a-8d4fc1945ab3 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "RoslynHarris" ;
+			:nome "Guadalupe Browning" ;
 			:frequenta :IS2021 ,
 				:PRC2021 .
 
-:aluno_00ce2c7f-b2f9-4fa2-9dc3-be51926fb1c6 rdf:type owl:NameIndividual ,
+:aluno_82c220ba-d865-47d0-8be6-cb8738c7b231 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "SpencerAcosta" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_78a48a73-4e5e-4635-90f1-77994d58a861 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "SharronMiranda" ;
-			:frequenta :IS2021 .
-
-:aluno_3d663211-7209-447f-802f-18c203b9b8a2 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KristiJohnston" ;
-			:frequenta :PRC2021 ,
-				:SPLN2021 .
-
-:aluno_56e9fc14-f8a4-400e-9a1b-b0d1c6d5cd16 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "VazquezAbbott" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
-
-:aluno_94b5b79f-50af-4c7d-9d55-56a06ee1025a rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FergusonNewton" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_9abd0b12-61c4-4042-bb3b-f82c70f71243 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LeannDickerson" ;
-			:frequenta :SPLN2021 ,
-				:IS2021 .
-
-:aluno_28c51818-e1e3-4710-a423-b7eab44ef2c0 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HollandRogers" ;
-			:frequenta :DC2021 .
-
-:aluno_92d29756-51de-4501-85bf-4beb94faeed2 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MortonAlvarez" ;
-			:frequenta :SPLN2021 ,
-				:IS2021 .
-
-:aluno_b1258008-587d-4ac1-bf83-ac9cc78d7115 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "WagnerRoy" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_5d8af5d4-5809-4f97-bc1b-fdb6efc2ffd5 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MccarthyLindsey" ;
-			:frequenta :SPLN2021 .
-
-:aluno_947cb5a6-65c0-4c7c-bc7b-0bd814149215 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "JillBerger" ;
-			:frequenta :SPLN2021 .
-
-:aluno_5c5bd500-da3d-4548-a8ac-397b1b22262b rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BoydArnold" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_1b5734c2-3cc0-4fb1-92b8-4e17cce8cc50 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "GwenParks" ;
-			:frequenta :IS2021 ,
-				:PRC2021 .
-
-:aluno_1af250b3-7dd9-4cc6-b9d0-b97f03036a4d rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BillieGeorge" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_67faab25-4a0e-496e-b52d-9c1313ac2d51 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AllisonShannon" ;
-			:frequenta :PRC2021 ,
-				:DC2021 .
-
-:aluno_cd3d36bf-c6cc-4e6c-8da1-a48e726b611e rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "EdwardsSnider" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_7cc1ad55-d90a-461b-bad1-513a7e1ded74 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "DorthyMcneil" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
-
-:aluno_275dbf70-b32c-4e91-8464-87d5ad650ff8 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LenoreCaldwell" ;
-			:frequenta :SPLN2021 ,
-				:DC2021 .
-
-:aluno_c751ddbd-9428-4d43-bb6d-370d0f6ce171 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "SharonLambert" ;
-			:frequenta :SPLN2021 .
-
-:aluno_423e3e7f-95c0-4371-acd3-79dcaba8fdf0 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "NewmanHardin" ;
+			:nome "Austin King" ;
 			:frequenta :DC2021 ,
 				:PRC2021 .
 
-:aluno_c1721e79-09bc-4b0e-af11-290efca9b28d rdf:type owl:NameIndividual ,
+:aluno_42f8975b-b3dc-4f0e-b35a-86118cd931f5 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "KristyFischer" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_af9d15cc-bd31-40a0-99f0-1823c2e69431 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MeyerBurton" ;
-			:frequenta :DC2021 .
-
-:aluno_1356e355-be43-4955-87e2-2dedf78c5518 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "EsmeraldaSalazar" ;
-			:frequenta :PRC2021 ,
-				:SPLN2021 .
-
-:aluno_06d485b5-91e3-4bc1-a75a-73928402ed54 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "LancasterDonovan" ;
-			:frequenta :SPLN2021 .
-
-:aluno_9bd90170-05c5-4963-9da5-300ac3dabc8c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MurielWebster" ;
-			:frequenta :IS2021 ,
-				:DC2021 .
-
-:aluno_abff8bf6-6c9b-4590-8ff0-ead69b3f37ae rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KaufmanHutchinson" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_1630ff91-3118-4897-a5b9-0ff2124531a7 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "HopkinsCollins" ;
-			:frequenta :DC2021 ,
-				:IS2021 .
-
-:aluno_8a71ef3e-2696-4ed7-971f-141c29efcccb rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "AlfredaHickman" ;
-			:frequenta :PRC2021 ,
-				:DC2021 .
-
-:aluno_53bd95b7-ccd2-426a-bf33-c74427b9595d rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "NannieSanford" ;
-			:frequenta :PRC2021 ,
-				:DC2021 .
-
-:aluno_bedceb59-b892-47e7-b95f-63e81e7da26e rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KathrineSellers" ;
-			:frequenta :PRC2021 .
-
-:aluno_e997100b-94ca-47b4-840b-c3966bd3c00b rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FultonAndrews" ;
-			:frequenta :DC2021 .
-
-:aluno_c08bcf11-bfd0-49af-a272-6aa397f9583f rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "KayOneill" ;
+			:nome "Durham Poole" ;
 			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_c720407a-b305-41b1-8775-f96af8f565dd rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MaggieMcconnell" ;
-			:frequenta :SPLN2021 ,
-				:PRC2021 .
-
-:aluno_13383f22-efed-4f3a-aed7-1753c11cb50e rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "MableJoyner" ;
-			:frequenta :PRC2021 ,
-				:SPLN2021 .
-
-:aluno_6fc80d96-f0d1-4f6f-a0c8-592802f98f76 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "FloresCruz" ;
-			:frequenta :DC2021 ,
-				:PRC2021 .
-
-:aluno_04499096-1c97-4672-b90b-94172e56ad6c rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "BarlowJuarez" ;
-			:frequenta :DC2021 ,
-				:SPLN2021 .
-
-:aluno_9c4bef87-6978-4f8a-bdfb-fbdaa23b3509 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "SusannePickett" ;
-			:frequenta :IS2021 ,
 				:DC2021 .
 
-:aluno_9b2859d6-9753-4f25-b760-bb76b684748c rdf:type owl:NameIndividual ,
+:aluno_afd443eb-74cc-460f-abe0-2aa841cd3644 rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "WallGrant" ;
-			:frequenta :SPLN2021 .
-
-:aluno_a4376fe0-ec06-466d-8794-3ee77fba6ce1 rdf:type owl:NameIndividual ,
-			Aluno ;
-			:nome "EbonyCampbell" ;
+			:nome "Lydia Richards" ;
 			:frequenta :PRC2021 ,
 				:SPLN2021 .
 
-:aluno_bb006325-9487-4acc-8185-d9cb510ba553 rdf:type owl:NameIndividual ,
+:aluno_dafc1b70-2275-4f71-87ba-fb22225fc2fb rdf:type owl:NameIndividual ,
 			Aluno ;
-			:nome "ValerieMiller" ;
+			:nome "Fletcher Merrill" ;
 			:frequenta :PRC2021 ,
-				:DC2021 .
+				:SPLN2021 .
 

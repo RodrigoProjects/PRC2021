@@ -5,7 +5,7 @@
     {
       'repeat(100)': {
         id: 'aluno_{{guid()}}',
-        nome: '{{firstName()}}{{surname()}}',
+        nome: '{{firstName()}} {{surname()}}',
         frequenta(tags) {
           const fruits = [':PRC2021', ':DC2021', ':IS2021', ':SPLN2021'];
           let fruit = tags.integer(0, fruits.length - 1);
