@@ -46,13 +46,21 @@
             :designação "<xsl:value-of select="designacao" />" .
             
         </xsl:for-each>
-        
+            
+            <xsl:if test="compositor">
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_<xsl:value-of select="generate-id(compositor)"/> ;
+            :compositor_<xsl:value-of select="generate-id(compositor)"/> rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "<xsl:value-of select="compositor"/>" .                    
+            </xsl:if>
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_<xsl:value-of select="@id" />
             :obra_<xsl:value-of select="@id" /> rdf:type owl:NamedIndividual ,
             :Obra ;
             <xsl:for-each select="instrumentos/instrumento">:temInstrumento :instrumento_<xsl:value-of select="generate-id()" /> ;
-            </xsl:for-each>:compositor "<xsl:value-of select="compositor" />" ;
-            :tipo "<xsl:value-of select="tipo" />" ;
+            </xsl:for-each>:tipo "<xsl:value-of select="tipo" />" ;
+            <xsl:if test="compositor">:temCompositor :compositor_<xsl:value-of select="generate-id(compositor)"/> ;</xsl:if>
             :titulo "<xsl:value-of select="titulo" />" .
 
      </xsl:template>

@@ -390,7 +390,13 @@
             :designação "Bateria" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e11 ;
+            :compositor_d0e11 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Ilídio Costa" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m1
             :obra_m1 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -420,8 +426,8 @@
             :temInstrumento :instrumento_d0e200 ;
             :temInstrumento :instrumento_d0e208 ;
             :temInstrumento :instrumento_d0e216 ;
-            :compositor "Ilídio Costa" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e11 ;
             :titulo "Homenagem a J. Serra" .
 
      
@@ -726,7 +732,13 @@
             :designação "Bombo" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e234 ;
+            :compositor_d0e234 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Ilídio Costa" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m2
             :obra_m2 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -750,8 +762,8 @@
             :temInstrumento :instrumento_d0e375 ;
             :temInstrumento :instrumento_d0e383 ;
             :temInstrumento :instrumento_d0e391 ;
-            :compositor "Ilídio Costa" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e234 ;
             :titulo "Armindo Alves" .
 
      
@@ -1191,7 +1203,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e409 ;
+            :compositor_d0e409 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "A. Morais" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m3
             :obra_m3 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -1224,8 +1242,8 @@
             :temInstrumento :instrumento_d0e627 ;
             :temInstrumento :instrumento_d0e635 ;
             :temInstrumento :instrumento_d0e643 ;
-            :compositor "A. Morais" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e409 ;
             :titulo "1989" .
 
      
@@ -1245,13 +1263,19 @@
             :designação "Sax Barítono" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e661 ;
+            :compositor_d0e661 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Carlos Marques" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m4
             :obra_m4 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e671 ;
-            :compositor "Carlos Marques" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e661 ;
             :titulo "Manuel Joaquim ALmeida" .
 
      
@@ -1646,7 +1670,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e689 ;
+            :compositor_d0e689 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "W. Scneider - Argenbuhl" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m5
             :obra_m5 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -1676,8 +1706,8 @@
             :temInstrumento :instrumento_d0e881 ;
             :temInstrumento :instrumento_d0e889 ;
             :temInstrumento :instrumento_d0e897 ;
-            :compositor "W. Scneider - Argenbuhl" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e689 ;
             :titulo "Holiday in Rio" .
 
      
@@ -2057,7 +2087,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e915 ;
+            :compositor_d0e915 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Carlos Marques" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m6
             :obra_m6 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -2086,8 +2122,8 @@
             :temInstrumento :instrumento_d0e1096 ;
             :temInstrumento :instrumento_d0e1104 ;
             :temInstrumento :instrumento_d0e1112 ;
-            :compositor "Carlos Marques" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e915 ;
             :titulo "São Martinho" .
 
      
@@ -2587,7 +2623,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e1130 ;
+            :compositor_d0e1130 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Alberto Madureira" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m7
             :obra_m7 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -2624,8 +2666,8 @@
             :temInstrumento :instrumento_d0e1380 ;
             :temInstrumento :instrumento_d0e1388 ;
             :temInstrumento :instrumento_d0e1396 ;
-            :compositor "Alberto Madureira" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e1130 ;
             :titulo "Avé Maria" .
 
      
@@ -2660,14 +2702,20 @@
             :designação "Maestro" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e1414 ;
+            :compositor_d0e1414 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Amílcar Morais" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m8
             :obra_m8 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e1419 ;
             :temInstrumento :instrumento_d0e1427 ;
-            :compositor "Amílcar Morais" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e1414 ;
             :titulo "Corpo Místico" .
 
      
@@ -3017,7 +3065,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e1445 ;
+            :compositor_d0e1445 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "A. Madureira da Silva" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m9
             :obra_m9 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -3044,8 +3098,8 @@
             :temInstrumento :instrumento_d0e1610 ;
             :temInstrumento :instrumento_d0e1618 ;
             :temInstrumento :instrumento_d0e1626 ;
-            :compositor "A. Madureira da Silva" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e1445 ;
             :titulo "Súplica" .
 
      
@@ -3575,7 +3629,13 @@
             :designação "Trompete" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e1644 ;
+            :compositor_d0e1644 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Álvaro Reis" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m10
             :obra_m10 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -3614,8 +3674,8 @@
             :temInstrumento :instrumento_d0e1905 ;
             :temInstrumento :instrumento_d0e1913 ;
             :temInstrumento :instrumento_d0e1921 ;
-            :compositor "Álvaro Reis" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e1644 ;
             :titulo "Senhora Nossa" .
 
      
@@ -3965,7 +4025,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e1939 ;
+            :compositor_d0e1939 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Fernando Ferreira da Costa" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m11
             :obra_m11 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -3992,8 +4058,8 @@
             :temInstrumento :instrumento_d0e2104 ;
             :temInstrumento :instrumento_d0e2112 ;
             :temInstrumento :instrumento_d0e2120 ;
-            :compositor "Fernando Ferreira da Costa" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e1939 ;
             :titulo "Invocação a Deus" .
 
      
@@ -4418,7 +4484,13 @@
             :designação "Contrabaixo" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e2138 ;
+            :compositor_d0e2138 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Valdemar Sequeira" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m12
             :obra_m12 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -4450,8 +4522,8 @@
             :temInstrumento :instrumento_d0e2343 ;
             :temInstrumento :instrumento_d0e2351 ;
             :temInstrumento :instrumento_d0e2359 ;
-            :compositor "Valdemar Sequeira" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e2138 ;
             :titulo "São Bento" .
 
      
@@ -4756,7 +4828,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e2377 ;
+            :compositor_d0e2377 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Ilídio Costa" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m13
             :obra_m13 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -4780,8 +4858,8 @@
             :temInstrumento :instrumento_d0e2518 ;
             :temInstrumento :instrumento_d0e2526 ;
             :temInstrumento :instrumento_d0e2534 ;
-            :compositor "Ilídio Costa" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e2377 ;
             :titulo "Casa de S. Paulo" .
 
      
@@ -5191,7 +5269,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e2552 ;
+            :compositor_d0e2552 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Afonso Alves" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m14
             :obra_m14 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -5222,8 +5306,8 @@
             :temInstrumento :instrumento_d0e2749 ;
             :temInstrumento :instrumento_d0e2757 ;
             :temInstrumento :instrumento_d0e2765 ;
-            :compositor "Afonso Alves" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e2552 ;
             :titulo "Filarmonia" .
 
      
@@ -5723,7 +5807,13 @@
             :designação "Xilofone" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e2783 ;
+            :compositor_d0e2783 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Amílcar Morais" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m15
             :obra_m15 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -5760,8 +5850,8 @@
             :temInstrumento :instrumento_d0e3028 ;
             :temInstrumento :instrumento_d0e3036 ;
             :temInstrumento :instrumento_d0e3044 ;
-            :compositor "Amílcar Morais" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e2783 ;
             :titulo "Caçadores do I" .
 
      
@@ -5796,14 +5886,20 @@
             :designação "Maestro" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3062 ;
+            :compositor_d0e3062 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Alexandre da Fonseca" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m16
             :obra_m16 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e3067 ;
             :temInstrumento :instrumento_d0e3075 ;
-            :compositor "Alexandre da Fonseca" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e3062 ;
             :titulo "Homenagem ao Dr Manuel Vaz" .
 
      
@@ -5823,13 +5919,19 @@
             :designação "Sax Barítono" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3093 ;
+            :compositor_d0e3093 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Alexandre Teixeira Fonseca" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m17
             :obra_m17 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e3098 ;
-            :compositor "Alexandre Teixeira Fonseca" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e3093 ;
             :titulo "Homenagem a Vila Verde" .
 
      
@@ -5849,13 +5951,19 @@
             :designação "Sax Barítono" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3116 ;
+            :compositor_d0e3116 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Alexandre Fonseca" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m18
             :obra_m18 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e3121 ;
-            :compositor "Alexandre Fonseca" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e3116 ;
             :titulo "12 de Abril" .
 
      
@@ -6340,7 +6448,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3139 ;
+            :compositor_d0e3139 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Amílcar Morais" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m19
             :obra_m19 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -6376,8 +6490,8 @@
             :temInstrumento :instrumento_d0e3376 ;
             :temInstrumento :instrumento_d0e3384 ;
             :temInstrumento :instrumento_d0e3392 ;
-            :compositor "Amílcar Morais" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e3139 ;
             :titulo "Tarântula" .
 
      
@@ -6847,7 +6961,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3410 ;
+            :compositor_d0e3410 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Carlos Marques" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m20
             :obra_m20 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -6882,18 +7002,19 @@
             :temInstrumento :instrumento_d0e3639 ;
             :temInstrumento :instrumento_d0e3647 ;
             :temInstrumento :instrumento_d0e3655 ;
-            :compositor "Carlos Marques" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e3410 ;
             :titulo "Cassiopeia" .
 
      
 
-        
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m21
             :obra_m21 rdf:type owl:NamedIndividual ,
             :Obra ;
-            :compositor "" ;
             :tipo "" ;
+            
             :titulo "António Nogueira" .
 
      
@@ -6913,13 +7034,19 @@
             :designação "Sax Barítono" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3679 ;
+            :compositor_d0e3679 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Tchaikovsky" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m22
             :obra_m22 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e3687 ;
-            :compositor "Tchaikovsky" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e3679 ;
             :titulo "Marcha Eslava" .
 
      
@@ -7389,7 +7516,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3705 ;
+            :compositor_d0e3705 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Steven Reineke" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m23
             :obra_m23 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -7424,18 +7557,24 @@
             :temInstrumento :instrumento_d0e3944 ;
             :temInstrumento :instrumento_d0e3952 ;
             :temInstrumento :instrumento_d0e3960 ;
-            :compositor "Steven Reineke" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e3705 ;
             :titulo "Fate of the Gods" .
 
      
 
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3980 ;
+            :compositor_d0e3980 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Valdemar Sequeira" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m24
             :obra_m24 rdf:type owl:NamedIndividual ,
             :Obra ;
-            :compositor "Valdemar Sequeira" ;
             :tipo "Rapsódia" ;
+            :temCompositor :compositor_d0e3980 ;
             :titulo "Vamos à Romaria" .
 
      
@@ -7860,7 +7999,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e3992 ;
+            :compositor_d0e3992 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Carlos Marques" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m25
             :obra_m25 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -7892,8 +8037,8 @@
             :temInstrumento :instrumento_d0e4197 ;
             :temInstrumento :instrumento_d0e4205 ;
             :temInstrumento :instrumento_d0e4213 ;
-            :compositor "Carlos Marques" ;
             :tipo "Rapsódia" ;
+            :temCompositor :compositor_d0e3992 ;
             :titulo "Português Suave" .
 
      
@@ -7913,13 +8058,19 @@
             :designação "All" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e4231 ;
+            :compositor_d0e4231 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Nuno Osório" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m26
             :obra_m26 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e4241 ;
-            :compositor "Nuno Osório" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e4231 ;
             :titulo "Cycles and Myths" .
 
      
@@ -8374,7 +8525,13 @@
             :designação "Bombo" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e4259 ;
+            :compositor_d0e4259 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Luís Cardoso" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m27
             :obra_m27 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -8408,8 +8565,8 @@
             :temInstrumento :instrumento_d0e4480 ;
             :temInstrumento :instrumento_d0e4488 ;
             :temInstrumento :instrumento_d0e4496 ;
-            :compositor "Luís Cardoso" ;
             :tipo "Rapsódia" ;
+            :temCompositor :compositor_d0e4259 ;
             :titulo "Canções da Tradição" .
 
      
@@ -9074,7 +9231,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e4514 ;
+            :compositor_d0e4514 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "ABBA" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m28
             :obra_m28 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -9122,8 +9285,8 @@
             :temInstrumento :instrumento_d0e4855 ;
             :temInstrumento :instrumento_d0e4863 ;
             :temInstrumento :instrumento_d0e4871 ;
-            :compositor "ABBA" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e4514 ;
             :titulo "Abba Mia" .
 
      
@@ -9653,7 +9816,13 @@
             :designação "Xilofone" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e4889 ;
+            :compositor_d0e4889 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Jacob de Haan" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m29
             :obra_m29 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -9692,8 +9861,8 @@
             :temInstrumento :instrumento_d0e5155 ;
             :temInstrumento :instrumento_d0e5163 ;
             :temInstrumento :instrumento_d0e5171 ;
-            :compositor "Jacob de Haan" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e4889 ;
             :titulo "Ross Roy" .
 
      
@@ -10208,7 +10377,13 @@
             :designação "Flautim" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e5189 ;
+            :compositor_d0e5189 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Meredith Willson" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m30
             :obra_m30 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -10246,8 +10421,8 @@
             :temInstrumento :instrumento_d0e5447 ;
             :temInstrumento :instrumento_d0e5455 ;
             :temInstrumento :instrumento_d0e5463 ;
-            :compositor "Meredith Willson" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e5189 ;
             :titulo "76 Trombones" .
 
      
@@ -10777,7 +10952,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e5481 ;
+            :compositor_d0e5481 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Ulvaeus Andersson" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m31
             :obra_m31 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -10816,8 +10997,8 @@
             :temInstrumento :instrumento_d0e5750 ;
             :temInstrumento :instrumento_d0e5758 ;
             :temInstrumento :instrumento_d0e5766 ;
-            :compositor "Ulvaeus Andersson" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e5481 ;
             :titulo "Highlights from 'Chess'" .
 
      
@@ -11182,7 +11363,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e5784 ;
+            :compositor_d0e5784 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Franz Von Suppé" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m32
             :obra_m32 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -11210,8 +11397,8 @@
             :temInstrumento :instrumento_d0e5965 ;
             :temInstrumento :instrumento_d0e5973 ;
             :temInstrumento :instrumento_d0e5981 ;
-            :compositor "Franz Von Suppé" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e5784 ;
             :titulo "Cavalaria Ligeira" .
 
      
@@ -11666,7 +11853,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e5999 ;
+            :compositor_d0e5999 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Gustavo Pascual Falcó" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m33
             :obra_m33 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -11700,8 +11893,8 @@
             :temInstrumento :instrumento_d0e6220 ;
             :temInstrumento :instrumento_d0e6228 ;
             :temInstrumento :instrumento_d0e6236 ;
-            :compositor "Gustavo Pascual Falcó" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e5999 ;
             :titulo "Paquito Chocolatero" .
 
      
@@ -12066,7 +12259,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e6254 ;
+            :compositor_d0e6254 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Salvador Salvá" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m34
             :obra_m34 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -12094,8 +12293,8 @@
             :temInstrumento :instrumento_d0e6427 ;
             :temInstrumento :instrumento_d0e6435 ;
             :temInstrumento :instrumento_d0e6443 ;
-            :compositor "Salvador Salvá" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e6254 ;
             :titulo "Xabia" .
 
      
@@ -12115,13 +12314,19 @@
             :designação "All" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e6461 ;
+            :compositor_d0e6461 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Harold Walters" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m35
             :obra_m35 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e6469 ;
-            :compositor "Harold Walters" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e6461 ;
             :titulo "Bands Around the World" .
 
      
@@ -12141,23 +12346,35 @@
             :designação "Sax Barítono" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e6487 ;
+            :compositor_d0e6487 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Nuno Osório" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m36
             :obra_m36 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e6497 ;
-            :compositor "Nuno Osório" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e6487 ;
             :titulo "Hispânico" .
 
      
 
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e6515 ;
+            :compositor_d0e6515 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Xutos e Pontapés" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m40
             :obra_m40 rdf:type owl:NamedIndividual ,
             :Obra ;
-            :compositor "Xutos e Pontapés" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e6515 ;
             :titulo "Xutos Medley" .
 
      
@@ -12462,7 +12679,8 @@
             :designação "Tuba" .
             
         
-        
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m41
             :obra_m41 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -12486,8 +12704,8 @@
             :temInstrumento :instrumento_d0e6676 ;
             :temInstrumento :instrumento_d0e6684 ;
             :temInstrumento :instrumento_d0e6692 ;
-            :compositor "" ;
             :tipo "Rapsódia" ;
+            
             :titulo "Sonhos de Portugal" .
 
      
@@ -12942,7 +13160,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e6710 ;
+            :compositor_d0e6710 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Steven Reineke" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m42
             :obra_m42 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -12976,8 +13200,8 @@
             :temInstrumento :instrumento_d0e6936 ;
             :temInstrumento :instrumento_d0e6944 ;
             :temInstrumento :instrumento_d0e6952 ;
-            :compositor "Steven Reineke" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e6710 ;
             :titulo "Pilatus: Mountain of Dragons" .
 
      
@@ -12997,13 +13221,19 @@
             :designação "All" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e6970 ;
+            :compositor_d0e6970 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "J. Strauss" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m43
             :obra_m43 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e6978 ;
-            :compositor "J. Strauss" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e6970 ;
             :titulo "Marcha Radetzky" .
 
      
@@ -13608,7 +13838,13 @@
             :designação "Violoncelo" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e6996 ;
+            :compositor_d0e6996 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Jorge Salgueiro" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m44
             :obra_m44 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -13652,18 +13888,24 @@
             :temInstrumento :instrumento_d0e7302 ;
             :temInstrumento :instrumento_d0e7310 ;
             :temInstrumento :instrumento_d0e7318 ;
-            :compositor "Jorge Salgueiro" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e6996 ;
             :titulo "Vila Franca" .
 
      
 
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e7336 ;
+            :compositor_d0e7336 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Ilídio Costa" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m45
             :obra_m45 rdf:type owl:NamedIndividual ,
             :Obra ;
-            :compositor "Ilídio Costa" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e7336 ;
             :titulo "Momentos Menores" .
 
      
@@ -14133,7 +14375,13 @@
             :designação "Percussão" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e7348 ;
+            :compositor_d0e7348 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Santana" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m46
             :obra_m46 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -14168,8 +14416,8 @@
             :temInstrumento :instrumento_d0e7580 ;
             :temInstrumento :instrumento_d0e7588 ;
             :temInstrumento :instrumento_d0e7596 ;
-            :compositor "Santana" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e7348 ;
             :titulo "Santana" .
 
      
@@ -14189,13 +14437,19 @@
             :designação "Maestro" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e7614 ;
+            :compositor_d0e7614 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Valdemar Sequeira" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m47
             :obra_m47 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e7619 ;
-            :compositor "Valdemar Sequeira" ;
             :tipo "Rapsódia" ;
+            :temCompositor :compositor_d0e7614 ;
             :titulo "Bailar em Nespereira" .
 
      
@@ -14230,14 +14484,20 @@
             :designação "Maestro" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e7637 ;
+            :compositor_d0e7637 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "António Almeida da Silva" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m48
             :obra_m48 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e7650 ;
             :temInstrumento :instrumento_d0e7658 ;
-            :compositor "António Almeida da Silva" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e7637 ;
             :titulo "Transfiguração" .
 
      
@@ -14842,7 +15102,13 @@
             :designação "Pandeireta" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e7676 ;
+            :compositor_d0e7676 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Richard Wagner" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m49
             :obra_m49 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -14886,8 +15152,8 @@
             :temInstrumento :instrumento_d0e7982 ;
             :temInstrumento :instrumento_d0e7990 ;
             :temInstrumento :instrumento_d0e7998 ;
-            :compositor "Richard Wagner" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e7676 ;
             :titulo "Tannhauser Ouverture" .
 
      
@@ -15222,7 +15488,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e8016 ;
+            :compositor_d0e8016 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Wim Laseroms" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m50
             :obra_m50 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -15248,8 +15520,8 @@
             :temInstrumento :instrumento_d0e8173 ;
             :temInstrumento :instrumento_d0e8181 ;
             :temInstrumento :instrumento_d0e8189 ;
-            :compositor "Wim Laseroms" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e8016 ;
             :titulo "Harmonique" .
 
      
@@ -15809,7 +16081,13 @@
             :designação "Xilofone" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e8207 ;
+            :compositor_d0e8207 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "José Alberto Pina" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m51
             :obra_m51 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -15850,8 +16128,8 @@
             :temInstrumento :instrumento_d0e8492 ;
             :temInstrumento :instrumento_d0e8500 ;
             :temInstrumento :instrumento_d0e8508 ;
-            :compositor "José Alberto Pina" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e8207 ;
             :titulo "Crucifixus" .
 
      
@@ -16261,7 +16539,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e8526 ;
+            :compositor_d0e8526 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Amílcar Morais" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m52
             :obra_m52 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -16292,8 +16576,8 @@
             :temInstrumento :instrumento_d0e8723 ;
             :temInstrumento :instrumento_d0e8731 ;
             :temInstrumento :instrumento_d0e8739 ;
-            :compositor "Amílcar Morais" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e8526 ;
             :titulo "Aguas do Botaréu" .
 
      
@@ -17003,7 +17287,13 @@
             :designação "Xilofone" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e8757 ;
+            :compositor_d0e8757 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Andrew Lloyd Webber" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m53
             :obra_m53 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -17054,8 +17344,8 @@
             :temInstrumento :instrumento_d0e9122 ;
             :temInstrumento :instrumento_d0e9130 ;
             :temInstrumento :instrumento_d0e9138 ;
-            :compositor "Andrew Lloyd Webber" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e8757 ;
             :titulo "Fantasma da Ópera" .
 
      
@@ -17075,13 +17365,19 @@
             :designação "Sax Barítono" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e9156 ;
+            :compositor_d0e9156 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Carlos Marques" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m54
             :obra_m54 rdf:type owl:NamedIndividual ,
             :Obra ;
             :temInstrumento :instrumento_d0e9161 ;
-            :compositor "Carlos Marques" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e9156 ;
             :titulo "Jigs: Duas Danças Tradicionais Irlandesas" .
 
      
@@ -17536,7 +17832,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e9182 ;
+            :compositor_d0e9182 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "J. Molina" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m55
             :obra_m55 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -17570,8 +17872,8 @@
             :temInstrumento :instrumento_d0e9403 ;
             :temInstrumento :instrumento_d0e9411 ;
             :temInstrumento :instrumento_d0e9419 ;
-            :compositor "J. Molina" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e9182 ;
             :titulo "La Tuba Bregosa" .
 
      
@@ -17996,7 +18298,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e9437 ;
+            :compositor_d0e9437 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Valdemar Sequeira" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m56
             :obra_m56 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -18028,8 +18336,8 @@
             :temInstrumento :instrumento_d0e9642 ;
             :temInstrumento :instrumento_d0e9650 ;
             :temInstrumento :instrumento_d0e9658 ;
-            :compositor "Valdemar Sequeira" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e9437 ;
             :titulo "Cidade Esposende" .
 
      
@@ -18559,7 +18867,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e9676 ;
+            :compositor_d0e9676 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "ABBA" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m57
             :obra_m57 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -18598,8 +18912,8 @@
             :temInstrumento :instrumento_d0e9940 ;
             :temInstrumento :instrumento_d0e9948 ;
             :temInstrumento :instrumento_d0e9956 ;
-            :compositor "ABBA" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e9676 ;
             :titulo "ABBA Gold" .
 
      
@@ -19084,7 +19398,13 @@
             :designação "Xilofone" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e9974 ;
+            :compositor_d0e9974 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Richard Waterer" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m58
             :obra_m58 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -19120,8 +19440,8 @@
             :temInstrumento :instrumento_d0e10216 ;
             :temInstrumento :instrumento_d0e10224 ;
             :temInstrumento :instrumento_d0e10232 ;
-            :compositor "Richard Waterer" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e9974 ;
             :titulo "Gibraltar" .
 
      
@@ -19576,7 +19896,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e10253 ;
+            :compositor_d0e10253 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Ennio Morricone" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m59
             :obra_m59 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -19610,8 +19936,8 @@
             :temInstrumento :instrumento_d0e10482 ;
             :temInstrumento :instrumento_d0e10490 ;
             :temInstrumento :instrumento_d0e10498 ;
-            :compositor "Ennio Morricone" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e10253 ;
             :titulo "Moment for Morricone" .
 
      
@@ -20036,7 +20362,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e10519 ;
+            :compositor_d0e10519 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Franz Von Suppé" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m60
             :obra_m60 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -20068,8 +20400,8 @@
             :temInstrumento :instrumento_d0e10724 ;
             :temInstrumento :instrumento_d0e10732 ;
             :temInstrumento :instrumento_d0e10740 ;
-            :compositor "Franz Von Suppé" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e10519 ;
             :titulo "Poeta e Aldeão" .
 
      
@@ -20449,7 +20781,13 @@
             :designação "Xilofone" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e10758 ;
+            :compositor_d0e10758 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Angelo Moreira" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m61
             :obra_m61 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -20478,8 +20816,8 @@
             :temInstrumento :instrumento_d0e10939 ;
             :temInstrumento :instrumento_d0e10947 ;
             :temInstrumento :instrumento_d0e10955 ;
-            :compositor "Angelo Moreira" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e10758 ;
             :titulo "Pérola 59" .
 
      
@@ -20949,7 +21287,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e10976 ;
+            :compositor_d0e10976 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Adolf Schreiner" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m62
             :obra_m62 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -20984,8 +21328,8 @@
             :temInstrumento :instrumento_d0e11208 ;
             :temInstrumento :instrumento_d0e11216 ;
             :temInstrumento :instrumento_d0e11224 ;
-            :compositor "Adolf Schreiner" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e10976 ;
             :titulo "Immer Kleiner" .
 
      
@@ -21245,7 +21589,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e11242 ;
+            :compositor_d0e11242 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Quinta do Bill" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m63
             :obra_m63 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -21266,8 +21616,8 @@
             :temInstrumento :instrumento_d0e11359 ;
             :temInstrumento :instrumento_d0e11367 ;
             :temInstrumento :instrumento_d0e11375 ;
-            :compositor "Quinta do Bill" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e11242 ;
             :titulo "Filhos da Nação" .
 
      
@@ -21587,7 +21937,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e11393 ;
+            :compositor_d0e11393 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Alexandre Fonseca" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m64
             :obra_m64 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -21612,8 +21968,8 @@
             :temInstrumento :instrumento_d0e11542 ;
             :temInstrumento :instrumento_d0e11550 ;
             :temInstrumento :instrumento_d0e11558 ;
-            :compositor "Alexandre Fonseca" ;
             :tipo "Marcha de Concerto/Pasodoble" ;
+            :temCompositor :compositor_d0e11393 ;
             :titulo "Horizonte da Razão" .
 
      
@@ -22173,7 +22529,13 @@
             :designação "Xilofone" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e11579 ;
+            :compositor_d0e11579 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "M. Taylor, D. Child, P. Barry, R. Rosa" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m65
             :obra_m65 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -22214,8 +22576,8 @@
             :temInstrumento :instrumento_d0e11859 ;
             :temInstrumento :instrumento_d0e11867 ;
             :temInstrumento :instrumento_d0e11875 ;
-            :compositor "M. Taylor, D. Child, P. Barry, R. Rosa" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e11579 ;
             :titulo "Latin Pop Special" .
 
      
@@ -22835,7 +23197,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e11893 ;
+            :compositor_d0e11893 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Jacob de Haan" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m66
             :obra_m66 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -22880,8 +23248,8 @@
             :temInstrumento :instrumento_d0e12202 ;
             :temInstrumento :instrumento_d0e12210 ;
             :temInstrumento :instrumento_d0e12218 ;
-            :compositor "Jacob de Haan" ;
             :tipo "Abertura/Concerto" ;
+            :temCompositor :compositor_d0e11893 ;
             :titulo "La Storia" .
 
      
@@ -23276,7 +23644,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e12236 ;
+            :compositor_d0e12236 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Alexandre Fonseca" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m67
             :obra_m67 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -23306,8 +23680,8 @@
             :temInstrumento :instrumento_d0e12425 ;
             :temInstrumento :instrumento_d0e12433 ;
             :temInstrumento :instrumento_d0e12441 ;
-            :compositor "Alexandre Fonseca" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e12236 ;
             :titulo "Zé Pedro" .
 
      
@@ -23972,7 +24346,13 @@
             :designação "Xilofone" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e12459 ;
+            :compositor_d0e12459 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Bernardino Bautista Monteverde" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m68
             :obra_m68 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -24020,8 +24400,8 @@
             :temInstrumento :instrumento_d0e12800 ;
             :temInstrumento :instrumento_d0e12808 ;
             :temInstrumento :instrumento_d0e12816 ;
-            :compositor "Bernardino Bautista Monteverde" ;
             :tipo "Ligeiro/Fantasia" ;
+            :temCompositor :compositor_d0e12459 ;
             :titulo "Macarena" .
 
      
@@ -24371,7 +24751,13 @@
             :designação "Trompete" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e12834 ;
+            :compositor_d0e12834 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Victor M. Ferrer" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m69
             :obra_m69 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -24398,8 +24784,8 @@
             :temInstrumento :instrumento_d0e13004 ;
             :temInstrumento :instrumento_d0e13012 ;
             :temInstrumento :instrumento_d0e13020 ;
-            :compositor "Victor M. Ferrer" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e12834 ;
             :titulo "Concha" .
 
      
@@ -24944,7 +25330,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e13038 ;
+            :compositor_d0e13038 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Oscar Navarro" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m70
             :obra_m70 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -24984,8 +25376,8 @@
             :temInstrumento :instrumento_d0e13312 ;
             :temInstrumento :instrumento_d0e13320 ;
             :temInstrumento :instrumento_d0e13328 ;
-            :compositor "Oscar Navarro" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e13038 ;
             :titulo "Hosanna in excelsis" .
 
      
@@ -25470,7 +25862,13 @@
             :designação "Trompete" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e13346 ;
+            :compositor_d0e13346 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "José Velez Garcia" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m71
             :obra_m71 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -25506,8 +25904,8 @@
             :temInstrumento :instrumento_d0e13588 ;
             :temInstrumento :instrumento_d0e13596 ;
             :temInstrumento :instrumento_d0e13604 ;
-            :compositor "José Velez Garcia" ;
             :tipo "Marcha de Procissão" ;
+            :temCompositor :compositor_d0e13346 ;
             :titulo "Jerusalen" .
 
      
@@ -25872,7 +26270,13 @@
             :designação "Trompete" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e13622 ;
+            :compositor_d0e13622 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Popular" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m72
             :obra_m72 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -25900,8 +26304,8 @@
             :temInstrumento :instrumento_d0e13795 ;
             :temInstrumento :instrumento_d0e13803 ;
             :temInstrumento :instrumento_d0e13811 ;
-            :compositor "Popular" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e13622 ;
             :titulo "S. João de Braga" .
 
      
@@ -26476,7 +26880,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e13829 ;
+            :compositor_d0e13829 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Alfredo Keil" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m73
             :obra_m73 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -26518,8 +26928,8 @@
             :temInstrumento :instrumento_d0e14114 ;
             :temInstrumento :instrumento_d0e14122 ;
             :temInstrumento :instrumento_d0e14130 ;
-            :compositor "Alfredo Keil" ;
             :tipo "Marcha de Desfile" ;
+            :temCompositor :compositor_d0e13829 ;
             :titulo "A Portuguesa" .
 
      
@@ -26824,7 +27234,13 @@
             :designação "Tuba" .
             
         
-        
+            ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#compositor_d0e14148 ;
+            :compositor_d0e14148 rdf:type owl:NamedIndividual ,
+            :Compositor ;
+            :nome "Camillo de Nardis" .                    
+            
+            
+            
             ###  http://www.semanticweb.org/rodrigo/ontologies/prc2021/arquivo-musical#obra_m74
             :obra_m74 rdf:type owl:NamedIndividual ,
             :Obra ;
@@ -26848,8 +27264,8 @@
             :temInstrumento :instrumento_d0e14292 ;
             :temInstrumento :instrumento_d0e14300 ;
             :temInstrumento :instrumento_d0e14308 ;
-            :compositor "Camillo de Nardis" ;
             :tipo "" ;
+            :temCompositor :compositor_d0e14148 ;
             :titulo "Juízo Final" .
 
      
