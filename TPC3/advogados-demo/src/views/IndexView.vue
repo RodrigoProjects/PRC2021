@@ -6,13 +6,17 @@
     >
       GraphDB Repos
     </h1>
-    <div class="mt-3" style="width: 40%;">
+    <div class="mt-3" style="width: 40%">
       <b-spinner v-if="loading" />
       <b-alert variant="danger" show v-if="error">{{ error }}</b-alert>
       <b-list-group v-if="repos">
-        <b-list-group-item v-for="repo in repos" :key="repo.id" :href="`/repo/${repo.id}`">
-          <h5> {{ repo.id }} </h5>
-          <span class="text-muted" style="width: 40%;"> {{ repo.title }}</span>
+        <b-list-group-item
+          v-for="repo in repos"
+          :key="repo.id"
+          :href="`/repo/${repo.id}`"
+        >
+          <h5>{{ repo.id }}</h5>
+          <span class="text-muted" style="width: 40%"> {{ repo.title }}</span>
         </b-list-group-item>
       </b-list-group>
     </div>
@@ -20,15 +24,14 @@
 </template>
 
 <script>
-
-import axios from 'axios'
+import axios from "axios";
 
 export default {
   data() {
     return {
       repos: [],
       loading: true,
-      error: null
+      error: null,
     };
   },
   methods: {
@@ -37,16 +40,17 @@ export default {
     },
   },
   created() {
-    axios.get('rest/repositories')
-      .then(repos => {
-        this.repos = repos.data
+    axios
+      .get("/api/rest/repositories")
+      .then((repos) => {
+        this.repos = repos.data;
       })
-      .catch(e => {
-        this.error = e
+      .catch((e) => {
+        this.error = e;
       })
       .finally(() => {
-        this.loading = false
-      })
-  }
+        this.loading = false;
+      });
+  },
 };
 </script>
