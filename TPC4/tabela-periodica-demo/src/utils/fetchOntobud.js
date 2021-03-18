@@ -1,5 +1,8 @@
+const axios = require('axios')
 
-let prefixes = `
+export function fetchOntobud(q){
+
+    let prefixes = `
 
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
@@ -11,13 +14,8 @@ let prefixes = `
 
     PREFIX skos: <w3.org/2004/02/skos/core#>
 
-    PREFIX adv: <http://www.semanticweb.org/rodrigo/ontologies/prc2021/advocacias#>
+    PREFIX tp: <http://www.semanticweb.org/rodrigo/ontologies/prc2021/advocacias#>
 
 `
 
-
-
-export {
-    prefixes
 }
-

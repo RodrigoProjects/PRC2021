@@ -1,4 +1,4 @@
-# advogados-demo
+# tabela-periodica-demo
 
 ## Project setup
 ```
