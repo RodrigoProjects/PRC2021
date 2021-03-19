@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer app dark clipped :mini-variant.sync="mini">
+    <v-navigation-drawer app dark clipped>
       <v-divider></v-divider>
 
       <v-list dense nav>
