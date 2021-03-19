@@ -28,5 +28,5 @@ export function fetchOntobud(q){
         }
       }
     
-      return axios.post('ontobud/api/rdf4j/query/tabela-periodica', body, config)
+      return axios.post('http://localhost:8080/ontobud/api/rdf4j/query/tabela-periodica', body, config)
 }

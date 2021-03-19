@@ -13,13 +13,13 @@
         v-if="elementos"
       ></v-text-field>
       <v-chip-group class="mt-3" v-if="elementos" center-active column>
-        <v-chip color="secondary" v-for="el in filteredElements" :key="el.abv" link :to="'elementos/' + el.abv">
+        <v-chip color="secondary" v-for="el in filteredElements" :key="el.abv" link exact :to="'/elementos/' + el.abv">
           {{ el.abv }} - {{ el.nome }}
         </v-chip>
       </v-chip-group>
       <v-divider v-if="filteredElements.length" class="mt-3" />
 
-      <router-view />
+      <router-view :key="$route.fullPath"/>
 
     </div>
   </div>
@@ -43,7 +43,7 @@ export default {
       "select * where { ?s rdf:type :Element; :name ?nome } order by ?s"
     )
       .then((res) => {
-        console.log(res.data);
+        
         this.elementos = res.data.results.bindings.map((el) => {
           return {
             abv: el.s.value.split("#")[1],
