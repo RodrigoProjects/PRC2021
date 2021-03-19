@@ -45,7 +45,7 @@
                 <v-list-item-subtitle class="font-weight-black text-h6">{{ data[k] }} </v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
-          </v-card>
+          </v-card> 
         </div>
       </div>
       <div></div>
