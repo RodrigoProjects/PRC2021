@@ -38,11 +38,15 @@
         </div>
         <v-divider class="mt-10"></v-divider>
         <div class="d-flex align-center justify-center pt-3" style="">
-          <v-card tile width="60%">
+          <v-card tile width="80%">
             <v-list-item v-for="k in Object.keys(data)" :key="k" class="header">
               <v-list-item-content>
-                <v-list-item-title class="font-weight-bold text-h5">{{ k }}:</v-list-item-title>
-                <v-list-item-subtitle class="font-weight-black text-h6">{{ data[k] }} </v-list-item-subtitle>
+                <v-list-item-title class="font-weight-bold text-h5"
+                  >{{ k }}:</v-list-item-title
+                >
+                <v-list-item-subtitle class="font-weight-black text-h6"
+                  >{{ data[k] }}
+                </v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
           </v-card>
@@ -85,7 +89,6 @@ export default {
         });
 
         this.data = acc;
-        console.log(this.data);
       })
       .catch((e) => {
         this.error = e;
