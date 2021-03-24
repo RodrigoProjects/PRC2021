@@ -35,6 +35,7 @@ def main() -> ():
                 
                 out.write(f'###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#{aut.attrib["id"]}\n')
                 out.write(f':{aut.attrib["id"]} rdf:type owl:NamedIndividual ,\n')
+                out.write(f'\t\t\t\t:Person ,\n')
                 out.write(f'\t\t\t\t:Author ;\n')
                 out.write(f'\t\t:name "{aut.text}" .\n\n')
             
@@ -43,6 +44,7 @@ def main() -> ():
 
                 out.write(f'###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#{edit.attrib["id"]}\n')
                 out.write(f':{edit.attrib["id"]} rdf:type owl:NamedIndividual ,\n')
+                out.write(f'\t\t\t\t:Person ,\n')
                 out.write(f'\t\t\t\t:Editor ;\n')
                 out.write(f'\t\t:name "{edit.text}" .\n\n')
         
@@ -50,6 +52,7 @@ def main() -> ():
 
             out.write(f'###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#{el.attrib["id"]}\n')
             out.write(f':{el.attrib["id"]} rdf:type owl:NamedIndividual ,\n')
+            out.write('\t\t\t\t:Resource ,\n')
             out.write(f'\t\t\t\t:{el.tag.capitalize()} ')
 
             for tag in list(el):
@@ -71,7 +74,7 @@ def main() -> ():
                     out.write(f';\n\t\t:deliverables "{", ".join([deli.tag + " - " + deli.attrib["url"] for deli in list(tag)])}" ')
 
                 else:
-                    out.write(f';\n\t\t:{tag.tag} "{tag.text}" ')
+                    out.write(f';\n\t\t:{tag.tag} "{" ".join(tag.text.split())}" ')
             
             out.write('.\n\n')
 

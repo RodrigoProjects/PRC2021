@@ -25,7 +25,8 @@
 :hasEditor rdf:type owl:ObjectProperty ;
            owl:inverseOf :isEditor ;
            rdfs:domain :Resource ;
-           rdfs:range :Editor .
+           rdfs:range :Author ,
+                      :Editor .
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#isAuthor
@@ -122,7 +123,8 @@
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Author
-:Author rdf:type owl:Class .
+:Author rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Book
@@ -131,7 +133,8 @@
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Editor
-:Editor rdf:type owl:Class .
+:Editor rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Inbook
@@ -154,6 +157,10 @@
       rdfs:subClassOf :Resource .
 
 
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Person
+:Person rdf:type owl:Class .
+
+
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Phdthesis
 :Phdthesis rdf:type owl:Class ;
            rdfs:subClassOf :Resource .
@@ -166,5 +173,6 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Resource
 :Resource rdf:type owl:Class .
+
 
 

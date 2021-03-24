@@ -25,7 +25,8 @@
 :hasEditor rdf:type owl:ObjectProperty ;
            owl:inverseOf :isEditor ;
            rdfs:domain :Resource ;
-           rdfs:range :Editor .
+           rdfs:range :Author ,
+                      :Editor .
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#isAuthor
@@ -122,7 +123,8 @@
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Author
-:Author rdf:type owl:Class .
+:Author rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Book
@@ -131,7 +133,8 @@
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Editor
-:Editor rdf:type owl:Class .
+:Editor rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
 
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Inbook
@@ -154,6 +157,10 @@
       rdfs:subClassOf :Resource .
 
 
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Person
+:Person rdf:type owl:Class .
+
+
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Phdthesis
 :Phdthesis rdf:type owl:Class ;
            rdfs:subClassOf :Resource .
@@ -168,352 +175,422 @@
 :Resource rdf:type owl:Class .
 
 
+
 #################################################################
 #    Individuals
 #################################################################
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#ap
 :ap rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "André Pereira" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#bf
 :bf rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Bruno Ferreira" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#asantos
 :asantos rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "André Santos" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jmoreira
 :jmoreira rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "João Moreira" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#eloy
 :eloy rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Eloy Rodrigues" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jcarvalho
 :jcarvalho rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "José Carvalho" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#alexandra
 :alexandra rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Alexandra Lourenço" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#penteado
 :penteado rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Pedro Penteado" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#hsilva
 :hsilva rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Hélder Silva" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#rq
 :rq rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "Ricardo Queirós" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#aa
 :aa rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Alan Akbik" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#bs
 :bs rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Barbara Sierman" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mr
 :mr rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Marcel Ras" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#cb
 :cb rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Christoph Becker" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#kd
 :kd rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Kresimir Duretec " .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#pp
 :pp rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Petar Petrov" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mjc
 :mjc rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Maria Jesus Colmenero Ruiz" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mam
 :mam rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Miguel Ángel Marzal Garcia-Quismondo" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#rf
 :rf rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Ricardo Freitas" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mk
 :mk rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Michael Kraxner" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#ar
 :ar rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Andreas Rauber" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#sa
 :sa rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "Salvador Abreu" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mm
 :mm rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Mirkos Martins" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#hm
 :hm rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Henrique Machado" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jv
 :jv rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Juliana Vizzotto" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#lmf
 :lmf rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Luis Miguel Ferros" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jg
 :jg rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Jonas Gassen" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#rct
 :rct rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Rogério Correa Turchetti" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#htm
 :htm rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "H. T. Machado" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mom
 :mom rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "M. O. Martins" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#pgf
 :pgf rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "P. G. D. Ferreira" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#rpa
 :rpa rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Renato Preigschadt de Azevedo" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#rc
 :rc rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Rui Castro" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#lf
 :lf rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Luis Faria" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#fb
 :fb rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Francisco Barbedo" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#lcor
 :lcor rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Luis Corujo" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#lc
 :lc rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "Luis Carriço" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mjpl
 :mjpl rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Maria João Pires Lima" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#as
 :as rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "António Sousa" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jcr
 :jcr rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "José Carlos Ramalho" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#prh
 :prh rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Pedro Rangel Henriques" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jj
 :jj rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "José João Almeida" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jls
 :jls rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "José Luis Santos" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#grl
 :grl rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Giovani Rubert Librelotto" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jgr
 :jgr rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "J. G. Rocha" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#arl
 :arl rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "A. R. Lopes" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mrh
 :mrh rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "M. R. Henriques" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jlf
 :jlf rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "J. L. Faria" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mhj
 :mhj rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "M. H.  Jacinto" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#hs
 :hs rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "H. Santos" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jmf
 :jmf rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "J. M. Fernandes" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#ajp
 :ajp rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "A. J. Proença" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#des
 :des rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Daniel Edgar Pinto Soares" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mcm
 :mcm rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Maria da Conceição Vieira Mota" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#gva
 :gva rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "Gustavo V. Arnold" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#cajo
 :cajo rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Carlos J. Feijó Lopes" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#mf
 :mf rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Miguel Ferreira" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#pt
 :pt rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Pedro Taveira" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#vr
 :vr rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Vasco Rocha" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#ram
 :ram rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Ricardo Martins" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#albie
 :albie rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "Alberto Simões" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#ws
 :ws rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Weber Souza" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#clei04
 :clei04 rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "Mauricio Solar and David Fernández-Baca and Ernesto Cuadros-Vargas" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#jcl
 :jcl rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "João Correia Lopes" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#lutz
 :lutz rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "Lutz Maicher" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#park
 :park rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Editor ;
 		:name "Jack Park" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#aab
 :aab rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Ana Alice Baptista" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#migaldo
 :migaldo rdf:type owl:NamedIndividual ,
+				:Person ,
 				:Author ;
 		:name "Luis Miguel Alves Domingues" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#cisti2017
 :cisti2017 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "RODA-in: A generic tool for the mass creation of Submission Information Packages" ;
 		:hasAuthor :jcr ;
@@ -528,6 +605,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#iPRES2016
 :iPRES2016 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Database Preservation Toolkit: A relational database conversion and normalization tool" ;
 		:hasAuthor :bf ;
@@ -542,6 +620,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#bad2015b
 :bad2015b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "PT-CRIS: Um miradouro sobre o universo científico nacional" ;
 		:hasAuthor :asantos ;
@@ -560,6 +639,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#bad2015a
 :bad2015a rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Uma ontologia para os processos de negócio da Administração" ;
 		:hasAuthor :alexandra ;
@@ -573,6 +653,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#edicic2015
 :edicic2015 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Da gestão da informação à gestão do conhecimento: uma proposta para a e-Administração em Portugal" ;
 		:hasAuthor :alexandra ;
@@ -586,6 +667,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#dlm2014
 :dlm2014 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Database Preservation Toolkit: a flexible tool to normalize and give access to databases" ;
 		:hasAuthor :jcr ;
@@ -599,6 +681,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#IGI2013
 :IGI2013 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inbook ;
 		:hasAuthor :rf ;
 		:hasAuthor :jcr ;
@@ -615,6 +698,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#ipres2013
 :ipres2013 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Automatic preservation watch using information extraction on the Web : a case study on semantic extraction of natural language for digital preservation" ;
 		:hasAuthor :lf ;
@@ -631,6 +715,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#or2013
 :or2013 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Supporting the preservation lifecycle in repositories" ;
 		:hasAuthor :lf ;
@@ -642,12 +727,13 @@
 		:address "Charlottetown, Canada" ;
 		:year "2013" ;
 		:month "07.08" ;
-		:doi " http://hdl.handle.net/1822/25101" .
+		:doi "http://hdl.handle.net/1822/25101" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#archiving2013
 :archiving2013 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
-		:title "	Guidelines for legacy repository migration" ;
+		:title "Guidelines for legacy repository migration" ;
 		:hasAuthor :mf ;
 		:hasAuthor :jcr ;
 		:hasAuthor :lf ;
@@ -659,8 +745,9 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#guimaramus2012
 :guimaramus2012 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
-		:title "	MuseCode: à procura da linearidade na música tonal" ;
+		:title "MuseCode: à procura da linearidade na música tonal" ;
 		:hasAuthor :jcr ;
 		:booktitle "Pensar a Música" ;
 		:address "Palácio Vila Flor, Guimarães" ;
@@ -670,6 +757,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#bad2012
 :bad2012 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE" ;
 		:hasAuthor :jcr ;
@@ -683,6 +771,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#icadl2012
 :icadl2012 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Design and architecture of a novel preservation watch system" ;
 		:hasAuthor :lf ;
@@ -699,6 +788,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#ipres2012
 :ipres2012 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Preservation watch : what to monitor and how" ;
 		:hasAuthor :cb ;
@@ -715,6 +805,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR11e
 :FR11e rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "New dimension in relational database preservation: raising the abstraction level" ;
 		:hasAuthor :rf ;
@@ -727,6 +818,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR11d
 :FR11d rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Relational Databases Conceptual Preservation" ;
 		:hasAuthor :rf ;
@@ -739,6 +831,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR11c
 :FR11c rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Using Ontologies to Abstract Relational Databases Conceptual Model" ;
 		:hasAuthor :rf ;
@@ -751,6 +844,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR11b
 :FR11b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Preservation of Relational Databases" ;
 		:hasAuthor :rf ;
@@ -763,6 +857,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR11
 :FR11 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Using Ontologies in Database Preservation" ;
 		:hasAuthor :rf ;
@@ -775,6 +870,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR10
 :FR10 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Significant Properties in the Preservation of Relational Databases" ;
 		:hasAuthor :rf ;
@@ -788,6 +884,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RQR10
 :RQR10 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa" ;
 		:hasAuthor :mjc ;
@@ -802,6 +899,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FFR10
 :FFR10 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "DigitArq e o novo módulo de interoperabilidade OAI-PMH" ;
 		:hasAuthor :mf ;
@@ -815,6 +913,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR09
 :FR09 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :rf ;
 		:hasAuthor :jcr ;
@@ -828,6 +927,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#GARH09
 :GARH09 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:title "Topic maps constraint languages : understanding and comparing" ;
 		:hasAuthor :grl ;
@@ -842,6 +942,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRHGT08
 :LRHGT08 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -857,6 +958,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#BKRFBR08
 :BKRFBR08 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :cb ;
 		:hasAuthor :mk ;
@@ -873,6 +975,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RFFCBC08
 :RFFCBC08 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :mf ;
@@ -889,6 +992,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLA08
 :RLA08 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Proceedings ;
 		:title "XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
 		:year "2008" ;
@@ -902,6 +1006,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LMMVRH08-XATA
 :LMMVRH08-XATA rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :mm ;
@@ -910,19 +1015,20 @@
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Generating a Semantic Network for PubMed" ;
-		:booktitle "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)" ;
+		:booktitle "XATA 2008 - XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)" ;
 		:year "2008" ;
 		:address "Évora - Portugal" ;
 		:month "02.14" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FRF-XATA
 :FRF-XATA rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :lmf ;
 		:hasAuthor :jcr ;
 		:hasAuthor :mf ;
 		:title "Creating a National Federation of Archives using OAI-PMH" ;
-		:booktitle "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)" ;
+		:booktitle "XATA 2008 - XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)" ;
 		:year "2008" ;
 		:address "Évora - Portugal" ;
 		:month "02.14" ;
@@ -930,6 +1036,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LGRH07-CLEI
 :LGRH07-CLEI rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jg ;
@@ -943,6 +1050,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LATRH07-CLEI
 :LATRH07-CLEI rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :rpa ;
@@ -957,6 +1065,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LARH07-EPIA
 :LARH07-EPIA rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :rpa ;
@@ -970,6 +1079,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LMMFRH07-TMRA
 :LMMFRH07-TMRA rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :htm ;
@@ -985,6 +1095,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH06-SBSI06
 :LRH06-SBSI06 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -997,6 +1108,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH07-SEMINFO
 :LRH07-SEMINFO rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -1008,6 +1120,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RFFC07-EML
 :RFFC07-EML rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :mf ;
@@ -1022,6 +1135,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH07-EML
 :RLH07-EML rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :rpa ;
@@ -1036,13 +1150,14 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LPRH07-XATA
 :LPRH07-XATA rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :rpa ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Navegando na Rede Semântica dos Topic Maps com o Ulisses" ;
-		:booktitle "XATA 2007 -  XML: Aplicações e Tecnologias Associadas (5ª Conferência Nacional)" ;
+		:booktitle "XATA 2007 - XML: Aplicações e Tecnologias Associadas (5ª Conferência Nacional)" ;
 		:year "2007" ;
 		:address "Lisboa - Portugal" ;
 		:month "02.14" ;
@@ -1050,13 +1165,14 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LPRH07-TM
 :LPRH07-TM rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :rpa ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche" ;
-		:booktitle "Topic Maps 2007 -  The First International Topic Maps User Conference" ;
+		:booktitle "Topic Maps 2007 - The First International Topic Maps User Conference" ;
 		:year "2007" ;
 		:address "Oslo - Norway" ;
 		:month "03.21" ;
@@ -1064,6 +1180,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FBR07-IJDL
 :FBR07-IJDL rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:title "An intelligent decision support system for digital preservation" ;
 		:hasAuthor :mf ;
@@ -1078,6 +1195,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RFCFBC06
 :RFCFBC06 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Misc ;
 		:hasAuthor :jcr ;
 		:hasAuthor :mf ;
@@ -1092,6 +1210,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FCRBCF07
 :FCRBCF07 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "RODA : Repositório de Objectos Digitais Autênticos" ;
 		:hasAuthor :mf ;
@@ -1108,6 +1227,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#SFRL07
 :SFRL07 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo" ;
 		:hasAuthor :as ;
@@ -1122,6 +1242,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RFCFBC07
 :RFCFBC07 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "XML e preservação digital" ;
 		:hasAuthor :jcr ;
@@ -1138,6 +1259,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLC07
 :RLC07 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Proceedings ;
 		:title "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
 		:year "2007" ;
@@ -1151,18 +1273,19 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FBR07
 :FBR07 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Misc ;
 		:hasAuthor :mf ;
 		:hasAuthor :aab ;
 		:hasAuthor :jcr ;
 		:title "CRiB : preservation services for Digital Repositories" ;
-		:howpublished "Apresentação efectuada na International Conference Open Repositories, 2, San
-		Antonio, Texas, United States of America, 2007." ;
+		:howpublished "Apresentação efectuada na International Conference Open Repositories, 2, San Antonio, Texas, United States of America, 2007." ;
 		:year "2007" ;
 		:doi "http://hdl.handle.net/1822/6195" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLS06
 :RLS06 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Proceedings ;
 		:title "XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
 		:year "2006" ;
@@ -1176,6 +1299,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RFFLS06
 :RFFLS06 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:title "Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos" ;
 		:hasAuthor :jcr ;
@@ -1191,6 +1315,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FBR06-Ariadne
 :FBR06-Ariadne rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:title "A foundation for automatic digital preservation" ;
 		:hasAuthor :mf ;
@@ -1205,6 +1330,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RH2002
 :RH2002 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Book ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
@@ -1216,6 +1342,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram2000
 :Ram2000 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Phdthesis ;
 		:hasAuthor :jcr ;
 		:title "Anotação Estrutural de Documentos e sua Semântica" ;
@@ -1227,6 +1354,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RAH1998
 :RAH1998 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:hasAuthor :jcr ;
 		:hasAuthor :jj ;
@@ -1239,6 +1367,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RS2003
 :RS2003 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :jls ;
@@ -1251,6 +1380,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH2003
 :RLH2003 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :grl ;
@@ -1264,13 +1394,14 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RARH98
 :RARH98 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:hasAuthor :jcr ;
 		:hasAuthor :jj ;
 		:hasAuthor :jgr ;
 		:hasAuthor :prh ;
 		:title "SGML Documents: Where does quality go?" ;
-		:journal "Markup Languages: theory and practice " ;
+		:journal "Markup Languages: theory and practice" ;
 		:year "1999" ;
 		:volume "journal, num. 1 vol. 1, MIT Press" ;
 		:month "01" ;
@@ -1279,6 +1410,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RH98
 :RH98 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
@@ -1289,6 +1421,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram01
 :Ram01 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:title "Constraining Content: specification and processing" ;
@@ -1300,6 +1433,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram99
 :Ram99 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:title "Recovering Old Paper Historical Documents Through SGML/XML Modelling" ;
@@ -1309,6 +1443,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RH99
 :RH99 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :jj ;
@@ -1320,6 +1455,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH98
 :RLH98 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
@@ -1333,6 +1469,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RHb98
 :RHb98 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
@@ -1345,6 +1482,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RHHRAF98
 :RHHRAF98 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jgr ;
 		:hasAuthor :mrh ;
@@ -1361,6 +1499,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH97
 :LRH97 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :arl ;
 		:hasAuthor :jcr ;
@@ -1374,6 +1513,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RAH96
 :RAH96 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :jj ;
@@ -1387,6 +1527,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#JLRH02
 :JLRH02 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mhj ;
 		:hasAuthor :grl ;
@@ -1401,13 +1542,14 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#JLRHb02
 :JLRHb02 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mhj ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Bidirectional Conversion between XML Documents and Relational Data Bases" ;
-		:booktitle "7th International Conference on CSCW in  Design" ;
+		:booktitle "7th International Conference on CSCW in Design" ;
 		:year "2002" ;
 		:address "Rio de Janeiro - Brasil" ;
 		:month "09.25" ;
@@ -1415,6 +1557,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#JHR00
 :JHR00 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mhj ;
 		:hasAuthor :prh ;
@@ -1428,6 +1571,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#JLRHc02
 :JLRHc02 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mhj ;
 		:hasAuthor :grl ;
@@ -1442,17 +1586,19 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RH94
 :RH94 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Uma experiência de utilização da Internet na gestão pedagógica e sua formalização" ;
-		:booktitle "I Conferência Nacional WWW,    Informação Multimédia na Internet" ;
+		:booktitle "I Conferência Nacional WWW, Informação Multimédia na Internet" ;
 		:year "1995" ;
 		:address "Universidade do Minho" ;
 		:month "07" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RAH95
 :RAH95 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :jj ;
@@ -1467,16 +1613,18 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram96
 :Ram96 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:title "DSSSL: basic topics" ;
-		:booktitle "Workshop: Document    Processing and SGML" ;
+		:booktitle "Workshop: Document Processing and SGML" ;
 		:year "1996" ;
 		:address "Universidade do Minho" ;
 		:month "09" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RRAH97
 :RRAH97 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :jgr ;
@@ -1491,6 +1639,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH03
 :RLH03 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:hasAuthor :jcr ;
 		:hasAuthor :grl ;
@@ -1504,18 +1653,20 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#JLRH03
 :JLRH03 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:hasAuthor :mhj ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "XCSL: XML Constraint Specification Language" ;
-		:journal "CLEI Electronic Journal,  ISSN 0717-5000. 2003. " ;
+		:journal "CLEI Electronic Journal, ISSN 0717-5000. 2003." ;
 		:year "2003" ;
 		:volume "Best papers of XXVIII Conferencia Latinoamericana de Informática - CLEI, 2002" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH03
 :LRH03 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -1529,6 +1680,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram03
 :Ram03 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:title "O XML nos curriculae das licenciaturas em informática" ;
@@ -1540,6 +1692,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#SRFP95
 :SRFP95 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:hasAuthor :hs ;
 		:hasAuthor :jcr ;
@@ -1552,6 +1705,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH03b
 :LRH03b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -1565,6 +1719,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH03c
 :LRH03c rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -1578,6 +1733,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#SMR03
 :SMR03 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :des ;
 		:hasAuthor :mcm ;
@@ -1591,12 +1747,12 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#JRH03
 :JRH03 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mhj ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
-		:title "XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de
-			Especificação de Restrições" ;
+		:title "XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de Especificação de Restrições" ;
 		:booktitle "XATA2003 - XML: Aplicações e Tecnologias Associadas" ;
 		:year "2003" ;
 		:address "Vila Verde - Portugal" ;
@@ -1605,6 +1761,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RHLA03
 :RHLA03 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Proceedings ;
 		:title "XATA2003 - XML: Aplicações e Tecnologias Associadas" ;
 		:year "2003" ;
@@ -1618,6 +1775,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram99b
 :Ram99b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inbook ;
 		:hasAuthor :jcr ;
 		:title "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação" ;
@@ -1629,6 +1787,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram93
 :Ram93 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Masterthesis ;
 		:hasAuthor :jcr ;
 		:title "Um Compilador para o GLiTCH" ;
@@ -1638,6 +1797,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#VECPAR93
 :VECPAR93 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :hs ;
 		:hasAuthor :jcr ;
@@ -1649,18 +1809,19 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RH98b
 :RH98b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Qualidade na Publicação Electrónica: como controlá-la?" ;
-		:booktitle "Quatic 98: III Encontro Nacional para a Qualidade nas Tecnologias da Informação e
-			Comunicação" ;
+		:booktitle "Quatic 98: III Encontro Nacional para a Qualidade nas Tecnologias da Informação e Comunicação" ;
 		:year "1998" ;
 		:address "Guimarães - Portugal" ;
 		:doi "http://hdl.handle.net/1822/621" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RH98c
 :RH98c rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
@@ -1671,25 +1832,27 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RH98d
 :RH98d rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Os desafios colocados pela informação estruturada no contexto dos arquivos: o arquivo distrital de Braga" ;
 		:booktitle "IX encontro nacional de Museus e Autarquias" ;
 		:year "1998" ;
-		:address "Loures - Portugal " .
+		:address "Loures - Portugal" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram98
 :Ram98 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Misc ;
 		:hasAuthor :jcr ;
 		:title "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?" ;
-		:howpublished "tutorial at Terceiro Encontro Nacional para a Qualidade nas tecnologias de
-			informação e comunicação, Guimarães - Portugal" ;
+		:howpublished "tutorial at Terceiro Encontro Nacional para a Qualidade nas tecnologias de informação e comunicação, Guimarães - Portugal" ;
 		:year "1998" .
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH03b
 :RLH03b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :grl ;
@@ -1703,6 +1866,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LR04
 :LR04 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :cajo ;
 		:hasAuthor :jcr ;
@@ -1716,6 +1880,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR04
 :FR04 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mf ;
 		:hasAuthor :jcr ;
@@ -1729,6 +1894,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH04
 :LRH04 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -1743,6 +1909,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RTFR04
 :RTFR04 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :pt ;
@@ -1758,6 +1925,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#MRH04
 :MRH04 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :ram ;
 		:hasAuthor :jcr ;
@@ -1772,6 +1940,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RS04
 :RS04 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Proceedings ;
 		:title "XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
 		:year "2004" ;
@@ -1784,6 +1953,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR04b
 :FR04b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :mf ;
@@ -1797,6 +1967,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH04
 :RLH04 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :grl ;
@@ -1811,6 +1982,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LSRH04
 :LSRH04 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :ws ;
@@ -1825,6 +1997,7 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#JLRH02b
 :JLRH02b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:hasAuthor :mhj ;
 		:hasAuthor :grl ;
@@ -1840,13 +2013,13 @@
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH04-Clei
 :LRH04-Clei rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Extração de Topic Maps no Oveia: Especificação e Processamento" ;
-		:booktitle "30ma Conferencia Latinoamericana de
-Informática (CLEI2004)" ;
+		:booktitle "30ma Conferencia Latinoamericana de Informática (CLEI2004)" ;
 		:year "2004" ;
 		:address "Sociedad Peruana de Computación, Peru" ;
 		:month "Sept." ;
@@ -1857,6 +2030,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RHL04-eLes
 :RHL04-eLes rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
@@ -1871,6 +2045,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FR04-capsi
 :FR04-capsi rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mf ;
 		:hasAuthor :jcr ;
@@ -1883,6 +2058,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH04-XMLw
 :LRH04-XMLw rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -1896,6 +2072,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RSL05
 :RSL05 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Proceedings ;
 		:title "XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
 		:year "2005" ;
@@ -1909,6 +2086,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#Ram05
 :Ram05 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:title "Document Composer: uma aplicação XML para extracção de informação de repositórios XML" ;
@@ -1921,6 +2099,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH05
 :LRH05 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -1935,6 +2114,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH05b
 :LRH05b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -1949,6 +2129,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RL05
 :RL05 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Book ;
 		:hasAuthor :jcr ;
 		:hasAuthor :cajo ;
@@ -1961,12 +2142,13 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH04-WWS
 :LRH04-WWS rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
 		:hasAuthor :prh ;
 		:title "Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps" ;
-		:booktitle "I  Workshop de Web Semântica (WWS2004)" ;
+		:booktitle "I Workshop de Web Semântica (WWS2004)" ;
 		:year "2004" ;
 		:address "Brasília, Brasil" ;
 		:month "10.22" ;
@@ -1974,6 +2156,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH05
 :RLH05 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :grl ;
@@ -1987,6 +2170,7 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH06
 :RLH06 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inbook ;
 		:hasAuthor :jcr ;
 		:hasAuthor :grl ;
@@ -2005,12 +2189,13 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH05b
 :RLH05b rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :grl ;
 		:hasAuthor :prh ;
 		:title "Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources" ;
-		:booktitle "TMRA'05 - International Workshop on  Topic Map Research and Applications " ;
+		:booktitle "TMRA'05 - International Workshop on Topic Map Research and Applications" ;
 		:year "2005" ;
 		:address "Leipzig - Germany" ;
 		:month "10.06" ;
@@ -2018,12 +2203,12 @@ Informática (CLEI2004)" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FBR05-CAPSI
 :FBR05-CAPSI rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mf ;
 		:hasAuthor :aab ;
 		:hasAuthor :jcr ;
-		:title "Avaliação Automática de Migração em Redes Distribuídas de
-Conversores" ;
+		:title "Avaliação Automática de Migração em Redes Distribuídas de Conversores" ;
 		:booktitle "6ª Conferência da Associação Portuguesa de Sistemas de Informação" ;
 		:year "2005" ;
 		:address "Bragança - Portugal" ;
@@ -2032,12 +2217,12 @@ Conversores" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RLH05-revAPSI17
 :RLH05-revAPSI17 rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Article ;
 		:hasAuthor :jcr ;
 		:hasAuthor :grl ;
 		:hasAuthor :prh ;
-		:title "Geração automática de interfaces Web para Sistemas de Informação:
-Metamorphosis" ;
+		:title "Geração automática de interfaces Web para Sistemas de Informação: Metamorphosis" ;
 		:journal "Revista da Associação Portuguesa de Sistemas de Informação" ;
 		:volume "17" ;
 		:year "2005" ;
@@ -2047,6 +2232,7 @@ Metamorphosis" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH05-CLEI
 :LRH05-CLEI rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
@@ -2061,6 +2247,7 @@ Metamorphosis" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#FBR06-XATA
 :FBR06-XATA rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :mf ;
 		:hasAuthor :aab ;
@@ -2075,6 +2262,7 @@ Metamorphosis" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#RD06-XATA
 :RD06-XATA rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :jcr ;
 		:hasAuthor :migaldo ;
@@ -2088,6 +2276,7 @@ Metamorphosis" ;
 
 ###  http://www.semanticweb.org/rodrigop/ontologies/2021/tpc5#LRH06-XATA
 :LRH06-XATA rdf:type owl:NamedIndividual ,
+				:Resource ,
 				:Inproceedings ;
 		:hasAuthor :grl ;
 		:hasAuthor :jcr ;
