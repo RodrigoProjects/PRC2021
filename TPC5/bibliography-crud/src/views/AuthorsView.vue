@@ -7,9 +7,9 @@
 
     <div class="text-h2">Autores:</div>
     <v-divider class="mt-4" width="60%"></v-divider>
-    <v-pagination v-model="page" class="mt-10 my-4" :length="Math.floor(pubs.length / 10)" :total-visible="15"></v-pagination>
+    <v-pagination v-model="page" class="my-10" :length="Math.floor(pubs.length / 10)"></v-pagination>
       <div class="d-flex align-center justify-space-around flex-wrap" style="vertical-align: top;">
-        <Publication class="mb-6" :id="pub" v-for="pub in pubs_page" :key="pub" style="width: 21%"/>
+        <Author class="mb-6" :id="pub" v-for="pub in pubs_page" :key="pub" style="flex: 0 1 21%;"/>
       </div>
       
       
@@ -24,19 +24,19 @@
 
 <script>
 import { fetchOntobud } from "@/utils/fetchOntobud.js";
-import Publication from "@/components/Publication";
+import Author from "@/components/Author";
 
 export default {
   data() {
     return {
-      pubs: [],
+      pubs: null,
       loading: true,
       error: null,
       page: 1,
     };
   },
   components: {
-    Publication,
+    Author,
   },
   methods: {},
   created() {

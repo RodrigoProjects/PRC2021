@@ -1,15 +1,20 @@
 <template>
   <div>
     <v-card v-if="pub" elevation="4">
-       <v-card-title>
-           {{ id }}
-       </v-card-title>
-       <v-card-text>
-           <div v-for="p in pub" :key="p.p + p.o">
-               <v-divider></v-divider>
-               <b>{{ p.p }}:</b> <span>{{ p.o }}</span>
-           </div>
-       </v-card-text>
+      <v-card-title>
+        {{ id }}
+      </v-card-title>
+      <v-card-text>
+        <div v-for="p in pub" :key="p.p + p.o">
+          <v-divider></v-divider>
+          <b>{{ p.p }}:</b> <span>{{ p.o }}</span>
+        </div>
+      </v-card-text>
+      <v-card-actions>
+        <v-btn color="red lighten-2" text>
+          Remover
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>
@@ -39,7 +44,6 @@ export default {
             o: e.o.type == "literal" ? e.o.value : e.o.value.split("#")[1],
           };
         });
-
       })
       .catch((e) => (this.error = e))
       .finally(() => (this.loading = false));
