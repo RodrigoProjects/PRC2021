@@ -7,6 +7,7 @@
 
     <div class="text-h2">Publicações:</div>
     <v-divider class="mt-4" width="60%"></v-divider>
+    <v-btn elevation="2" color="success" outlined class="mt-8">Adicionar</v-btn>
     <v-pagination v-model="page" class="my-10" :length="Math.floor(pubs.length / 10)" :total-visible="15"></v-pagination>
       <div class="d-flex align-center justify-space-around flex-wrap" style="vertical-align: top;">
         <Publication class="mb-6" :id="pub" v-for="pub in pubs_page" :key="pub" style="flex: 0 1 21%;"/>

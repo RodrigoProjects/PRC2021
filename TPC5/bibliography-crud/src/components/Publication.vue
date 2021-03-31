@@ -14,6 +14,9 @@
         <v-btn color="red lighten-2" text>
           Remover
         </v-btn>
+        <v-btn color="blue lighten-2" text>
+          Editar
+        </v-btn>
       </v-card-actions>
     </v-card>
   </div>

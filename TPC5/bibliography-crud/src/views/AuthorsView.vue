@@ -4,18 +4,35 @@
       v-if="pubs && !error"
       class="d-flex flex-column align-center justify-center mt-9"
     >
-
-    <div class="text-h2">Autores:</div>
-    <v-divider class="mt-4" width="60%"></v-divider>
-    <v-pagination v-model="page" class="my-10" :length="Math.floor(pubs.length / 10)"></v-pagination>
-      <div class="d-flex align-center justify-space-around flex-wrap" style="vertical-align: top;">
-        <Author class="mb-6" :id="pub" v-for="pub in pubs_page" :key="pub" style="flex: 0 1 21%;"/>
+      <div class="text-h2">Autores:</div>
+      
+      <v-divider class="mt-4" width="60%"></v-divider>
+      <v-btn elevation="2" color="success" outlined class="mt-8">Adicionar</v-btn>
+      <v-pagination
+        v-model="page"
+        class="my-10"
+        :length="Math.floor(pubs.length / 10)"
+      ></v-pagination>
+      <div
+        class="d-flex align-center justify-space-around flex-wrap"
+        style="vertical-align: top"
+      >
+        <Author
+          class="mb-6"
+          :id="pub"
+          v-for="pub in pubs_page"
+          :key="pub"
+          style="flex: 0 1 21%"
+        />
       </div>
-      
-      
     </div>
 
-    <v-progress-circular v-if="loading" indeterminate color="primary" class="mt-5" />
+    <v-progress-circular
+      v-if="loading"
+      indeterminate
+      color="primary"
+      class="mt-5"
+    />
     <v-alert border="top" color="red lighten-2" dark v-if="error">
       {{ error }}
     </v-alert>
