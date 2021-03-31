@@ -1,3 +1,15 @@
 module.exports = {
-  transpileDependencies: ["vuetify"] 
+  transpileDependencies: ["vuetify"],
+  devServer: {
+    proxy: {
+        '/ontobud': {
+            target: 'http://epl.di.uminho.pt:8738',
+            secure: true,
+            changeOrigin: true,
+            pathRewrite: {
+                '^/ontobud': ''
+            }
+        },
+    }
+  }
 };
