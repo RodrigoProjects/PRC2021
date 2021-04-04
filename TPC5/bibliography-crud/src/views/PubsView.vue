@@ -7,7 +7,24 @@
 
     <div class="text-h2">Publicações:</div>
     <v-divider class="mt-4" width="60%"></v-divider>
-    <v-btn elevation="2" color="success" outlined class="mt-8">Adicionar</v-btn>
+    <v-dialog transition="dialog-bottom-transition" max-width="600">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn class="mt-8" color="success" outlined v-bind="attrs" v-on="on"
+            >Adicionar</v-btn
+          >
+        </template>
+        <template v-slot:default="dialog">
+          <v-card>
+            <v-toolbar color="success" dark>Criar uma nova Publicação</v-toolbar>
+            <v-card-text>
+              <div class="text-h2 pa-12">Formulário</div>
+            </v-card-text>
+            <v-card-actions class="justify-end">
+              <v-btn color="red lighten-2" text @click="dialog.value = false">Fechar</v-btn>
+            </v-card-actions>
+          </v-card>
+        </template>
+      </v-dialog>
     <v-pagination v-model="page" class="my-10" :length="Math.floor(pubs.length / 10)" :total-visible="15"></v-pagination>
       <div class="d-flex align-center justify-space-around flex-wrap" style="vertical-align: top;">
         <Publication class="mb-6" :id="pub" v-for="pub in pubs_page" :key="pub" style="flex: 0 1 21%;"/>
