@@ -1,0 +1,56 @@
+1-
+
+SELECT ?entidade WHERE {
+    ?s rdf:type :Transacao ;
+       :entidade ?entidade .
+}
+
+2- 
+
+SELECT ?fracao WHERE {
+    { ?fracao rdf:type :Fracao ;
+              :temMapaPagamento ?mapa .
+    }
+    UNION
+    {
+        ?mapa :abr "1" .
+    }
+}
+
+3-
+SELECT (SUM(?valor) AS ?total) WHERE {
+    ?s rdf:type :Transacao ;
+       :tipo "Despesa" ;
+       :valor ?valor .
+}
+
+4- 
+
+SELECT ((xsd:integer(COUNT(?meses)) * xsd:integer(?valor)) AS ?liquido) WHERE {
+    {?fracao rdf:type owl:NamedIndividual ;
+            rdf:type :Fracao ;
+            :temMapaPagamento ?mapa .
+    }
+    UNION
+    {
+        ?mapa rdf:type :MapaPagamento ;
+              ?meses "1" .
+    }
+}
+
+
+5- 
+
+SELECT ?fracao ((xsd:integer(COUNT(?meses)) * xsd:integer(?valor)) AS ?liquido) WHERE {
+    {?fracao rdf:type owl:NamedIndividual ;
+            rdf:type :Fracao ;
+            :temMapaPagamento ?mapa .
+    }
+    UNION
+    {
+        ?mapa rdf:type :MapaPagamento ;
+              ?meses "1" .
+    }
+}
+GROUP BY ?fracao .
+

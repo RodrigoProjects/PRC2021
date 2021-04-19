@@ -1,0 +1,751 @@
+@prefix : <http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9> .
+
+<http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#temFracao
+:temFracao rdf:type owl:ObjectProperty ;
+           owl:inverseOf :éFracao ;
+           rdfs:domain :Condominio ,
+                       :Transacao ;
+           rdfs:range :Fracao .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#temMapaPagamento
+:temMapaPagamento rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :éMapaPagamento ;
+                  rdfs:domain :Fracao ;
+                  rdfs:range :MapaPagamento .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#éFracao
+:éFracao rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#éMapaPagamento
+:éMapaPagamento rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#abr
+:abr rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#ago
+:ago rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#data
+:data rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#descricao
+:descricao rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#dez
+:dez rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#entidade
+:entidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#fev
+:fev rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#jan
+:jan rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#jul
+:jul rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#jun
+:jun rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#mai
+:mai rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#mar
+:mar rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#mensalidade
+:mensalidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#nov
+:nov rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#out
+:out rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#permilhagem
+:permilhagem rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#set
+:set rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#tipo
+:tipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#valor
+:valor rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Condominio
+:Condominio rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+:Fracao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+:MapaPagamento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Transacao
+:Transacao rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+
+          
+           
+           
+            
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_1Dto rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "1" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_2Dto rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "0" ;
+                          :fev "0" ;
+                          :mar "0" ;
+                          :abr "0" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_3Dto rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "1" ;
+                          :mai "1" ;
+                          :jun "1" ;
+                          :jul "1" ;
+                          :ago "1" ;
+                          :set "1" ;
+                          :out "1" ;
+                          :nov "1" ;
+                          :dez "1" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_4Dto rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "1" ;
+                          :mai "1" ;
+                          :jun "1" ;
+                          :jul "1" ;
+                          :ago "1" ;
+                          :set "1" ;
+                          :out "1" ;
+                          :nov "1" ;
+                          :dez "1" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_5Dto rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "1" ;
+                          :mai "1" ;
+                          :jun "1" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_6Dto rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "1" ;
+                          :mai "1" ;
+                          :jun "1" ;
+                          :jul "1" ;
+                          :ago "1" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_7Dto rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "1" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_8Dto rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "0" ;
+                          :fev "0" ;
+                          :mar "0" ;
+                          :abr "0" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_1Esq rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "0" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_3Esq rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "0" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_5Esq rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "1" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_7Esq rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "1" ;
+                          :fev "1" ;
+                          :mar "1" ;
+                          :abr "1" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+            ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#MapaPagamento
+            :mapa_Loja rdf:type owl:NamedIndividual ,
+                                    :MapaPagamento ;
+                          :jan "0" ;
+                          :fev "0" ;
+                          :mar "0" ;
+                          :abr "0" ;
+                          :mai "0" ;
+                          :jun "0" ;
+                          :jul "0" ;
+                          :ago "0" ;
+                          :set "0" ;
+                          :out "0" ;
+                          :nov "0" ;
+                          :dez "0" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :Loja rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "A";
+                :permilhagem "50";
+                :mensalidade "6.06";
+                :temMapaPagamento :mapaLoja .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :1Dto rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "F";
+                :permilhagem "24";
+                :mensalidade "36.45";
+                :temMapaPagamento :mapa1Dto .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :1Esq rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "G";
+                :permilhagem "34";
+                :mensalidade "51.63";
+                :temMapaPagamento :mapa1Esq .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :2Dto rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "H";
+                :permilhagem "24";
+                :mensalidade "36.45";
+                :temMapaPagamento :mapa2Dto .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :3Dto rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "I";
+                :permilhagem "24";
+                :mensalidade "36.45";
+                :temMapaPagamento :mapa3Dto .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :3Esq rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "J";
+                :permilhagem "34";
+                :mensalidade "51.63";
+                :temMapaPagamento :mapa3Esq .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :4Dto rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "L";
+                :permilhagem "24";
+                :mensalidade "36.45";
+                :temMapaPagamento :mapa4Dto .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :5Dto rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "M";
+                :permilhagem "24";
+                :mensalidade "36.45";
+                :temMapaPagamento :mapa5Dto .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :5Esq rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "N";
+                :permilhagem "34";
+                :mensalidade "51.63";
+                :temMapaPagamento :mapa5Esq .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :6Dto rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "O";
+                :permilhagem "24";
+                :mensalidade "36.45";
+                :temMapaPagamento :mapa6Dto .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :7Dto rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "P";
+                :permilhagem "24";
+                :mensalidade "36.45";
+                :temMapaPagamento :mapa7Dto .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :7Esq rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "Q";
+                :permilhagem "34";
+                :mensalidade "51.63";
+                :temMapaPagamento :mapa7Esq .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#Fracao
+        :8Dto rdf:type owl:NamedIndividual ,
+                         :Fracao ;
+                :fracao  "R";
+                :permilhagem "24";
+                :mensalidade "36.45";
+                :temMapaPagamento :mapa8Dto .
+        
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_001 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-01-04" ;
+                   :valor "7.28" ;
+                   :entidade "CGD" ;
+                   :descricao "Manutenção da conta" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_002 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-01-06" ;
+                   :valor "64.00" ;
+                   :entidade "7º Esq" ;
+                   :descricao "Janeiro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_003 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-01-06" ;
+                   :valor "406.62" ;
+                   :entidade "2º Dto" ;
+                   :descricao "Abril a Dezembro de 2019" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_004 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-01-08" ;
+                   :valor "222.65" ;
+                   :entidade "EDP" ;
+                   :descricao "Luz" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_005 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-01-16" ;
+                   :valor "45.18" ;
+                   :entidade "7º Dto" ;
+                   :descricao "Janeiro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_006 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-02-01" ;
+                   :valor "7.28" ;
+                   :entidade "CGD" ;
+                   :descricao "Manutenção da conta" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_007 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-02-04" ;
+                   :valor "64.00" ;
+                   :entidade "5º Esq" ;
+                   :descricao "Fevereiro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_008 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-02-06" ;
+                   :valor "64.00" ;
+                   :entidade "7º Esq" ;
+                   :descricao "Fevereiro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_009 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-01-20" ;
+                   :valor "439.77" ;
+                   :entidade "Kone" ;
+                   :descricao "Manutenção dos elevadores: 1º trimestre" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_010 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-02-12" ;
+                   :valor "384.00" ;
+                   :entidade "1º e 3º Esq" ;
+                   :descricao "Janeiro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_011 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-02-20" ;
+                   :valor "45.18" ;
+                   :entidade "7º Dto" ;
+                   :descricao "Fevereiro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_012 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-02-24" ;
+                   :valor "20.00" ;
+                   :entidade "Serralheiro" ;
+                   :descricao "Concerto do trinco da porta" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_013 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-02-24" ;
+                   :valor "174.30" ;
+                   :entidade "CMB" ;
+                   :descricao "Inspeção dos elevadores" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_014 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-02-24" ;
+                   :valor "194.30" ;
+                   :entidade "1º Dto" ;
+                   :descricao "Acertos: Janeiro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_015 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-03-11" ;
+                   :valor "271.08" ;
+                   :entidade "5º Dto" ;
+                   :descricao "Janeiro a Junho" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_016 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-03-11" ;
+                   :valor "1655.00" ;
+                   :entidade "PluriRapel" ;
+                   :descricao "Reparação das fachadas" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_017 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-02-26" ;
+                   :valor "64.00" ;
+                   :entidade "5º Esq" ;
+                   :descricao "Março" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_018 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-02-29" ;
+                   :valor "542.16" ;
+                   :entidade "3º Dto" ;
+                   :descricao "Janeiro a Dezembro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_019 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-03-04" ;
+                   :valor "236.59" ;
+                   :entidade "EDP" ;
+                   :descricao "Luz" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_020 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-03-06" ;
+                   :valor "64.00" ;
+                   :entidade "7º Esq" ;
+                   :descricao "Março" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_021 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-03-07" ;
+                   :valor "7.28" ;
+                   :entidade "CGD" ;
+                   :descricao "Manutenção da conta" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_022 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-03-15" ;
+                   :valor "45.18" ;
+                   :entidade "7º Dto" ;
+                   :descricao "Março" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_023 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-03-30" ;
+                   :valor "64.00" ;
+                   :entidade "5º Esq" ;
+                   :descricao "Abril" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_024 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-04-04" ;
+                   :valor "7.28" ;
+                   :entidade "CGD" ;
+                   :descricao "Manutenção da conta" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_025 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-04-06" ;
+                   :valor "64.00" ;
+                   :entidade "7º Esq" ;
+                   :descricao "Abril" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_026 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-04-07" ;
+                   :valor "225.90" ;
+                   :entidade "6º Dto" ;
+                   :descricao "Abril a Agosto" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_027 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-04-14" ;
+                   :valor "45.18" ;
+                   :entidade "7º Dto" ;
+                   :descricao "Abril" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_028 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-04-15" ;
+                   :valor "207.98" ;
+                   :entidade "Vizinhos" ;
+                   :descricao "Luz Comum" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_029 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-04-15" ;
+                   :valor "1080.00" ;
+                   :entidade "Limpeza" ;
+                   :descricao "Limpeza 2020" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_030 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Receita" ;
+                   :data "2020-04-15" ;
+                   :valor "542.16" ;
+                   :entidade "4º Dto" ;
+                   :descricao "Janeiro a Dezembro" .
+        
+        ###  http://www.semanticweb.org/rodrigop/ontologies/2021/3/untitled-ontology-9#transacao
+        :2020_031 rdf:type owl:NamedIndividual ,
+                            :Transacao ;
+                   :tipo "Despesa" ;
+                   :data "2020-04-01" ;
+                   :valor "439.77" ;
+                   :entidade "Kone" ;
+                   :descricao "Manutenção dos elevadores: 2º trimestre" .
+        
