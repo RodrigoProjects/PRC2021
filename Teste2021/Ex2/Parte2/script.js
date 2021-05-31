@@ -26,7 +26,7 @@ let prefixes = `
     
     axios.get('http://localhost:7200/repositories/family/statements?query=' + query)
         .then(res => {
-            console.log(res.data)
+            //console.log(res.data)
             /*let data = res.data.results.bindings.map( e => {
                 return `:${e.subject.value.split('#')[1]} :${e.predicate.value.split('#')[1]} :${e.object.value.split('#')[1]} .`
             })*/

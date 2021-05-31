@@ -5,7 +5,7 @@ var graphDB = require('../utils/fetchGraph')
 /* GET home page. */
 router.get('/emd', function(req, res, next) {
 
-  if(req.query.res == "0K"){
+  if(req.query.res == "OK"){
     graphDB.fetch('select ?s where { ?s rdf:type :EMD ; :resultado "True" .}')
    .then(resp => {
      res.jsonp(resp.data)
