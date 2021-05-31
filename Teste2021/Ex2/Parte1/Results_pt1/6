@@ -1,0 +1,55 @@
+{
+  "head": {
+    "vars": [
+      "subject",
+      "predicate",
+      "object"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temRelacaoCom"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temRelacaoCom"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#NamedIndividual"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temRelacaoCom"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        }
+      }
+    ]
+  }
+}

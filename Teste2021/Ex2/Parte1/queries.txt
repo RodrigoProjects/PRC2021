@@ -1,0 +1,94 @@
+1- 
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+CONSTRUCT {
+    ?s1 :irmao ?s2 .
+    ?s2 :irmao ?s1 .
+} WHERE {
+    ?s1 :temProgenitor ?p1.
+    ?s2 :temProgenitor ?p1.
+}
+
+2- 
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+CONSTRUCT {
+    ?p3 :bisavo ?s1 .
+
+} WHERE {
+    ?s1 :temProgenitor ?p1 .
+    ?p1 :temProgenitor ?p2 .
+    ?p2 :temProgenitor ?p3 .
+
+}
+
+3- 
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+CONSTRUCT {
+    ?s1 :descendente ?s2 .
+
+} WHERE {
+    ?s2 :eProgenitorDe ?s1 .
+
+}
+
+4- 
+
+# Primeiro inserimos uma nova relação chamada irmão.
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+CONSTRUCT {
+    ?s1 :irmao ?s2 .
+    ?s2 :irmao ?s1 .
+} WHERE {
+    ?s1 :temProgenitor ?p1.
+    ?s2 :temProgenitor ?p1.
+}
+
+# De seguida pegamos no resultado desta query e usámos o INSERT DATA para a inserir na ontologia.
+
+# Para finalizar criamos a relação primo com a ajuda da relação irmão. Este construct apanha também "meios primos"
+# ou seja primos provenientes de meios irmãos.
+
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+CONSTRUCT {
+    ?s1 :primo ?s2 .
+    ?s2 :primo ?s1 .
+
+} WHERE {
+    ?s1 :temProgenitor ?p1 .
+
+    ?p1 :irmao ?i .
+
+    ?i :éProgenitorDe ?s2 .
+
+}
+
+5- 
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+CONSTRUCT {
+    ?m :sexo "F" . 
+    ?p :sexo "M" .
+
+} WHERE {
+    ?s1 :temMae ?m .
+    ?s2 :temPai ?p .
+
+}
+
+6- 
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+CONSTRUCT {
+    :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom ?p .
+    :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom ?p2 .
+
+} WHERE {
+    ?p ?pro :José_Carlos_Leite_Ramalho_1967 .
+    :José_Carlos_Leite_Ramalho_1967 ?pro2 ?p2 .
+
+}
+

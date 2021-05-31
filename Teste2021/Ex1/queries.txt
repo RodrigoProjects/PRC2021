@@ -1,0 +1,68 @@
+1 - 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/rodrigop/ontologies/2021/teste#>
+select (count (?s) as ?total) where { 
+	?s rdf:type :EMD .
+}
+
+2- 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/rodrigop/ontologies/2021/teste#>
+select (count (?s) as ?total) where { 
+	?s rdf:type :EMD ;
+       :resultado "True" .
+}
+
+3- 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/rodrigop/ontologies/2021/teste#>
+select ?g (count (?s) as ?total) where { 
+	?s rdf:type :EMD ;
+       :temAtleta ?a.
+    
+    ?a :genero  ?g .
+}
+group by ?g 
+
+4- 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/rodrigop/ontologies/2021/teste#>
+select ?mod (count (?s) as ?total) where { 
+	?s rdf:type :EMD ;
+       :temModalidade ?m.
+    
+    ?m :nome  ?mod .
+}
+group by ?mod
+
+5- 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/rodrigop/ontologies/2021/teste#>
+select (count (?s) as ?total) where { 
+	?s rdf:type :EMD ;
+       :temClube ?m ;
+       :temAtleta ?a .
+    
+    ?a :federado "True" .
+    ?m :nome  "GDGoma" .
+}
+group by ?mod
+
+6- 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/rodrigop/ontologies/2021/teste#>
+select (count (?s) as ?total) where { 
+	?s rdf:type :EMD ;
+       :temModalidade ?m ;
+       :temAtleta ?a .
+    
+    ?a :genero "F" .
+    ?m :nome  "Triatlo" .
+}
+group by ?mod
